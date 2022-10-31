@@ -26,6 +26,7 @@ def get_items():
             for id in input_ids:
                 if id in data.keys():
                     items.append(data[id])
+    #If item is not found
     if len(input_ids) != len(items):
         print("Items not found")
     for i in items:
