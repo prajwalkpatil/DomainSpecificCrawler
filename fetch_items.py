@@ -1,18 +1,20 @@
 import json
 import os 
 import numpy as np
-import spacy
-import en_core_web_sm
+
+# import spacy
+# import en_core_web_sm
+#Load English tokenizer, tagger, parser and NER
+# nlp = spacy.load("en_core_web_sm")
+
 #Directory containing all the JSON files
 source_directory = './JSONFiles_withID/';
 
-#Load English tokenizer, tagger, parser and NER
-nlp = spacy.load("en_core_web_sm")
 
 all_files = os.listdir(source_directory)
 
 #List that stores IDs of all the items
-input_ids = ["2132","3193"]
+input_ids = ["2132","1000"]
 #List that stores the item dictionaries
 items = {}
 #List that stores all the attribute names of the items
@@ -22,6 +24,7 @@ similarity_matrix = np.array([])
 
 matrix_header = []
 matrix_id = []
+matrix_values = []
 num_of_attributes = 0
 
 def get_items():
@@ -58,6 +61,7 @@ def print_common_attributes(common_attributes):
 def create_matrix():
     global matrix_header
     global matrix_id
+    global matrix_values
     global similarity_matrix
     global num_of_attributes
     size = 0
@@ -67,6 +71,7 @@ def create_matrix():
         size += len(item_attributes[i])
         for attr in item_attributes[i]:
             matrix_header.append(attr.replace("-"," "))
+            matrix_values.append(items[i][attr].replace("-"," "))
             matrix_id.append(i)
     similarity_matrix = np.zeros((size,size))
     num_of_attributes = size
@@ -94,8 +99,8 @@ print_common_attributes(common_attributes)
 create_matrix()
 print(matrix_id)
 print(matrix_header)
-fill_matrix()
-print(similarity_matrix)
+print(matrix_values)
+# fill_matrix()
+# print(similarity_matrix)
 
-similarity_matrix.tofile('similarity_matrix.csv',sep=',',format='%10.5f')
-
+# similarity_matrix.tofile('similarity_matrix.csv',sep=',',format='%10.5f')
