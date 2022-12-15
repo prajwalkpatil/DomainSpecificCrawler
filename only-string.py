@@ -28,7 +28,7 @@ source_directory = './JSONFiles_withID/'
 all_files = os.listdir(source_directory)
 
 # input ids from the user
-input_ids = {"5400", "5000", "5001", "5002"}
+input_ids = {"4082", "4430"}
 temp_ids = input_ids
 item_values = {}
 temp_list = []
@@ -141,79 +141,46 @@ print("The search terms are : ")
 #     print(search_terms[i])
 print(len(search_terms))
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1
-# page_range = []
-# no_of_pages = 1          #change to get more links
-# for i in range(0, no_of_pages):
-#     page_range.append(i * 5)
-
-# all_links = []
-# for term in search_terms:
-#     for i in page_range:
-#         params['start'] = i
-#         params['q'] = term
-#         html = requests.get("https://www.google.com/search",
-#                             headers=headers, params=params, timeout=20)
-#         soup = BeautifulSoup(html.text, 'lxml')
-#         for result in soup.select('.tF2Cxc'):
-#             link = result.select_one('.yuRUbf a')['href']
-#             print(link)
-#             all_links.append(link)
-#             append_to_dictionary(link)
 
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2
-# from spellchecker import SpellChecker
-# spell = SpellChecker
+import re
+import requests
+from bs4 import BeautifulSoup
 
-# from urllib.request import urlopen
-# from urllib.error import HTTPError
-# import nltk
-# from bs4 import BeautifulSoup as bs
-# import requests
-# from googlesearch import search
-# for term in search_terms:
-#     for link in search(term,lang = "en", tld="co.in", num=5, stop=5, pause=20):
-#         print(link)
-#         append_to_dictionary(link)
+duckDuckUrl = 'https://html.duckduckgo.com/html/'
+payload = {'q': ''}
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:84.0) Gecko/20100101 Firefox/84.0'}
 
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3
-# import re
-# import json
-# import nltk
-# import string
-# from datetime import datetime
-# from googlesearch import search   
-# from urllib.request import urlopen
-# from collections import Counter
-# from bs4 import BeautifulSoup
-# from nltk.tokenize import word_tokenize, sent_tokenize
+for l in search_terms:
+    payload['q'] = l
+    res = requests.post(duckDuckUrl, data=payload, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    link_elements = soup.findAll('a')
 
-# def get_links(keyword):
-#     global link_dictionary
-#     for j in search(keyword, tld="co.in", num = 1, stop = 1, pause=60): 
-#         #Check if its forbidden URL
-#         # if not is_ul(j):
-#             #Append the link to the array
-#         print(j)
-#         append_to_dictionary(j)
-# for term in search_terms:
-#     get_links(term)
+    link_set = set()
 
+    for i in link_elements:
+        link = i.get("href")
+        if(re.match(r"http\S*", str(link))):
+            link_set.add(link)
+            append_to_dictionary(link)
+
+    for i in link_set:
+        print(">> ", i)
 
 
 # print(">>>>>>>>>>>>>>")
 # print(link_dictionary)
 # print(">>>>>>>>>>>>>>")
-# sorted_links = sorted(link_dictionary.items(),
-#                       key=lambda x: x[1], reverse=True)
+sorted_links = sorted(link_dictionary.items(),
+                      key=lambda x: x[1], reverse=True)
 # print(">>>>>>>>>>>>>>")
 # print(sorted_links)
 # print(">>>>>>>>>>>>>>")
 
-
-# print("The seed URL will be - ")
-# print(sorted_links[0][0])
-# print("Number of occurences- ")
-# print(sorted_links[0][1])
+print("The seed URL will be - ")
+print(sorted_links[0][0])
+print("Number of occurences- ")
+print(sorted_links[0][1])
