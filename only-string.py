@@ -28,7 +28,7 @@ source_directory = './JSONFiles_withID/'
 all_files = os.listdir(source_directory)
 
 # input ids from the user
-input_ids = {"5400", "5000", "5001"}
+input_ids = {"5400", "5000", "5001", "5002"}
 temp_ids = input_ids
 item_values = {}
 temp_list = []
@@ -137,8 +137,8 @@ for i in range(len(sets)):
                 search_items[sets[i][0]][j] + " AND " + search_items[sets[i][1]][k])
 
 print("The search terms are : ")
-for i in range(len(search_terms)):
-    print(search_terms[i])
+# for i in range(len(search_terms)):
+#     print(search_terms[i])
 print(len(search_terms))
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1
