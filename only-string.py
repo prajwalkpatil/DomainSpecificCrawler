@@ -28,7 +28,7 @@ source_directory = './JSONFiles_withID/'
 all_files = os.listdir(source_directory)
 
 # input ids from the user
-input_ids = {"1915", "5400", "5000"}
+input_ids = {"5400", "5000", "5001"}
 temp_ids = input_ids
 item_values = {}
 temp_list = []
@@ -76,9 +76,8 @@ for id in item_values:
             temp = value.split(',')
             item_values[id].remove(value)
             item_values[id].extend(temp)
-            
-        # remove yes and nos
-        print(">>>>>>>>>>>>>>>>>>")
+
+        # remove Yes, No, yes and no
         try:
             item_values[id].remove('Yes')
         except:
@@ -108,11 +107,16 @@ for id in item_values:
 n = 4        # n random words are selected from each list
 search_items = []
 for id in item_values:
-    # temp_list = random.sample(item_values[id], n)
-    temp_list = random.sample(item_values[id], len(item_values[id]))
-    search_items.append(temp_list)
-print(search_items)
-print('\n')
+    # temp_list = random.sample(item_values[id], n)  # to get less combinations for testing
+    
+    print(len(item_values[id]))
+    print(">>>>>>>>>>>>>>>>>>>>>>>>")
+    # temp_list = random.sample(item_values[id], len(item_values[id]))
+    # search_items.append(temp_list)
+    search_items.append(item_values[id])
+
+# print(search_items)
+# print('\n')
 
 search_terms = []
 sets = []
@@ -120,20 +124,22 @@ sets = []
 for i in range(len(search_items)):
     sets.append(i)
 
-sets = findsubsets(sets, 2)  # change number to get more terms
+sets = findsubsets(sets, 2)
 print(sets)
 
 for i in range(len(sets)):
-    for j in range(n):
-        for k in range(n):
+    print(">>>>>>>>>>>>>>>>>>")
+    print(len(search_items[sets[i][0]]))
+    print(len(search_items[sets[i][1]]))
+    for j in range(len(search_items[sets[i][0]])):   # replace with n to get less terms
+        for k in range(len(search_items[sets[i][1]])):  # replace with n to get less terms
             search_terms.append(
                 search_items[sets[i][0]][j] + " AND " + search_items[sets[i][1]][k])
 
 print("The search terms are : ")
 for i in range(len(search_terms)):
     print(search_terms[i])
-
-
+print(len(search_terms))
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1
 # page_range = []
@@ -197,17 +203,17 @@ for i in range(len(search_terms)):
 
 
 
-print(">>>>>>>>>>>>>>")
-print(link_dictionary)
-print(">>>>>>>>>>>>>>")
-sorted_links = sorted(link_dictionary.items(),
-                      key=lambda x: x[1], reverse=True)
-print(">>>>>>>>>>>>>>")
-print(sorted_links)
-print(">>>>>>>>>>>>>>")
+# print(">>>>>>>>>>>>>>")
+# print(link_dictionary)
+# print(">>>>>>>>>>>>>>")
+# sorted_links = sorted(link_dictionary.items(),
+#                       key=lambda x: x[1], reverse=True)
+# print(">>>>>>>>>>>>>>")
+# print(sorted_links)
+# print(">>>>>>>>>>>>>>")
 
 
-print("The seed URL will be - ")
-print(sorted_links[0][0])
-print("Number of occurences- ")
-print(sorted_links[0][1])
+# print("The seed URL will be - ")
+# print(sorted_links[0][0])
+# print("Number of occurences- ")
+# print(sorted_links[0][1])
