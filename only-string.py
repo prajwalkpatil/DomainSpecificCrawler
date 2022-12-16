@@ -28,7 +28,7 @@ source_directory = './JSONFiles_withID/'
 all_files = os.listdir(source_directory)
 
 # input ids from the user
-input_ids = {"4082", "4430"}
+input_ids = {"4082", "4430", "4000"}
 temp_ids = input_ids
 item_values = {}
 temp_list = []
@@ -142,45 +142,44 @@ print("The search terms are : ")
 print(len(search_terms))
 
 
+# import re
+# import requests
+# from bs4 import BeautifulSoup
 
-import re
-import requests
-from bs4 import BeautifulSoup
-
-duckDuckUrl = 'https://html.duckduckgo.com/html/'
-payload = {'q': ''}
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:84.0) Gecko/20100101 Firefox/84.0'}
-
-
-for l in search_terms:
-    payload['q'] = l
-    res = requests.post(duckDuckUrl, data=payload, headers=headers)
-    soup = BeautifulSoup(res.text, 'html.parser')
-    link_elements = soup.findAll('a')
-
-    link_set = set()
-
-    for i in link_elements:
-        link = i.get("href")
-        if(re.match(r"http\S*", str(link))):
-            link_set.add(link)
-            append_to_dictionary(link)
-
-    for i in link_set:
-        print(">> ", i)
+# duckDuckUrl = 'https://html.duckduckgo.com/html/'
+# payload = {'q': ''}
+# headers = {
+#     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:84.0) Gecko/20100101 Firefox/84.0'}
 
 
-# print(">>>>>>>>>>>>>>")
-# print(link_dictionary)
-# print(">>>>>>>>>>>>>>")
-sorted_links = sorted(link_dictionary.items(),
-                      key=lambda x: x[1], reverse=True)
-# print(">>>>>>>>>>>>>>")
-# print(sorted_links)
-# print(">>>>>>>>>>>>>>")
+# for l in search_terms:
+#     payload['q'] = l
+#     res = requests.post(duckDuckUrl, data=payload, headers=headers)
+#     soup = BeautifulSoup(res.text, 'html.parser')
+#     link_elements = soup.findAll('a')
 
-print("The seed URL will be - ")
-print(sorted_links[0][0])
-print("Number of occurences- ")
-print(sorted_links[0][1])
+#     link_set = set()
+
+#     for i in link_elements:
+#         link = i.get("href")
+#         if(re.match(r"http\S*", str(link))):
+#             link_set.add(link)
+#             append_to_dictionary(link)
+
+#     for i in link_set:
+#         print(">> ", i)
+
+
+# # print(">>>>>>>>>>>>>>")
+# # print(link_dictionary)
+# # print(">>>>>>>>>>>>>>")
+# sorted_links = sorted(link_dictionary.items(),
+#                       key=lambda x: x[1], reverse=True)
+# # print(">>>>>>>>>>>>>>")
+# # print(sorted_links)
+# # print(">>>>>>>>>>>>>>")
+
+# print("The seed URL will be - ")
+# print(sorted_links[0][0])
+# print("Number of occurences- ")
+# print(sorted_links[0][1])
