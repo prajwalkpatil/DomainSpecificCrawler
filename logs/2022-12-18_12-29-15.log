@@ -1,0 +1,35 @@
+18-Dec-22 12:29:15 - INFO - Log - START
+18-Dec-22 12:29:15 - INFO - People grouped.
+18-Dec-22 12:29:15 - INFO - CameraLens.json > JSON read
+18-Dec-22 12:29:15 - INFO - CameraLens.json > Keys made
+18-Dec-22 12:29:15 - INFO - CameraLens.json > JSON written
+18-Dec-22 12:29:15 - INFO - Laptop.json > JSON read
+18-Dec-22 12:29:15 - INFO - Laptop.json > Keys made
+18-Dec-22 12:29:15 - INFO - Laptop.json > JSON written
+18-Dec-22 12:29:15 - INFO - LaptopPeriferals.json > JSON read
+18-Dec-22 12:29:15 - INFO - LaptopPeriferals.json > Keys made
+18-Dec-22 12:29:15 - INFO - LaptopPeriferals.json > JSON written
+18-Dec-22 12:29:15 - INFO - Mobile.json > JSON read
+18-Dec-22 12:29:15 - INFO - Mobile.json > Keys made
+18-Dec-22 12:29:15 - INFO - Mobile.json > JSON written
+18-Dec-22 12:29:15 - INFO - Person.json > JSON read
+18-Dec-22 12:29:15 - INFO - Person.json > Keys made
+18-Dec-22 12:29:15 - INFO - Person.json > JSON written
+18-Dec-22 12:29:15 - INFO - Refrigerator.json > JSON read
+18-Dec-22 12:29:15 - INFO - Refrigerator.json > Keys made
+18-Dec-22 12:29:15 - INFO - Refrigerator.json > JSON written
+18-Dec-22 12:29:15 - INFO - Tablet.json > JSON read
+18-Dec-22 12:29:15 - INFO - Tablet.json > Keys made
+18-Dec-22 12:29:15 - INFO - Tablet.json > JSON written
+18-Dec-22 12:29:15 - INFO - TV.json > JSON read
+18-Dec-22 12:29:15 - INFO - TV.json > Keys made
+18-Dec-22 12:29:15 - INFO - TV.json > JSON written
+18-Dec-22 12:29:15 - INFO - WashingMachine.json > JSON read
+18-Dec-22 12:29:15 - INFO - WashingMachine.json > Keys made
+18-Dec-22 12:29:16 - INFO - WashingMachine.json > JSON written
+18-Dec-22 12:29:16 - INFO - WearableSmartDevice.json > JSON read
+18-Dec-22 12:29:16 - INFO - WearableSmartDevice.json > Keys made
+18-Dec-22 12:29:16 - INFO - WearableSmartDevice.json > JSON written
+18-Dec-22 12:29:16 - INFO - Creating files completed!
+18-Dec-22 12:29:16 - INFO - ID(s): ['1234', '2122']
+18-Dec-22 12:29:16 - INFO - Headers fetched.

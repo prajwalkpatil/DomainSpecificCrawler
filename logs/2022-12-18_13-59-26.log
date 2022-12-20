@@ -1,0 +1,37 @@
+18-Dec-22 13:59:26 - INFO - Log - START
+18-Dec-22 13:59:26 - INFO - People grouped.
+18-Dec-22 13:59:26 - INFO - CameraLens.json > JSON read
+18-Dec-22 13:59:26 - INFO - CameraLens.json > Keys made
+18-Dec-22 13:59:26 - INFO - CameraLens.json > JSON written
+18-Dec-22 13:59:26 - INFO - Laptop.json > JSON read
+18-Dec-22 13:59:26 - INFO - Laptop.json > Keys made
+18-Dec-22 13:59:26 - INFO - Laptop.json > JSON written
+18-Dec-22 13:59:26 - INFO - LaptopPeriferals.json > JSON read
+18-Dec-22 13:59:26 - INFO - LaptopPeriferals.json > Keys made
+18-Dec-22 13:59:27 - INFO - LaptopPeriferals.json > JSON written
+18-Dec-22 13:59:27 - INFO - Mobile.json > JSON read
+18-Dec-22 13:59:27 - INFO - Mobile.json > Keys made
+18-Dec-22 13:59:27 - INFO - Mobile.json > JSON written
+18-Dec-22 13:59:27 - INFO - Person.json > JSON read
+18-Dec-22 13:59:27 - INFO - Person.json > Keys made
+18-Dec-22 13:59:27 - INFO - Person.json > JSON written
+18-Dec-22 13:59:27 - INFO - Refrigerator.json > JSON read
+18-Dec-22 13:59:27 - INFO - Refrigerator.json > Keys made
+18-Dec-22 13:59:27 - INFO - Refrigerator.json > JSON written
+18-Dec-22 13:59:27 - INFO - Tablet.json > JSON read
+18-Dec-22 13:59:27 - INFO - Tablet.json > Keys made
+18-Dec-22 13:59:27 - INFO - Tablet.json > JSON written
+18-Dec-22 13:59:27 - INFO - TV.json > JSON read
+18-Dec-22 13:59:27 - INFO - TV.json > Keys made
+18-Dec-22 13:59:27 - INFO - TV.json > JSON written
+18-Dec-22 13:59:27 - INFO - WashingMachine.json > JSON read
+18-Dec-22 13:59:27 - INFO - WashingMachine.json > Keys made
+18-Dec-22 13:59:28 - INFO - WashingMachine.json > JSON written
+18-Dec-22 13:59:28 - INFO - WearableSmartDevice.json > JSON read
+18-Dec-22 13:59:28 - INFO - WearableSmartDevice.json > Keys made
+18-Dec-22 13:59:28 - INFO - WearableSmartDevice.json > JSON written
+18-Dec-22 13:59:28 - INFO - Creating files completed!
+18-Dec-22 13:59:28 - INFO - ID(s): ['1022', '2122']
+18-Dec-22 13:59:28 - INFO - Items read successfully
+18-Dec-22 13:59:28 - INFO - Items written to file successfully
+18-Dec-22 13:59:28 - INFO - Log - END

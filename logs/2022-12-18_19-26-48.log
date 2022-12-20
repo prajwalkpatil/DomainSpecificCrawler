@@ -1,0 +1,51 @@
+18-Dec-22 19:26:48 - INFO - Log - START
+18-Dec-22 19:26:48 - INFO - People grouped.
+18-Dec-22 19:26:48 - INFO - CameraLens.json > JSON read
+18-Dec-22 19:26:48 - INFO - CameraLens.json > Keys made
+18-Dec-22 19:26:48 - INFO - CameraLens.json > JSON written
+18-Dec-22 19:26:48 - INFO - Laptop.json > JSON read
+18-Dec-22 19:26:48 - INFO - Laptop.json > Keys made
+18-Dec-22 19:26:48 - INFO - Laptop.json > JSON written
+18-Dec-22 19:26:48 - INFO - LaptopPeriferals.json > JSON read
+18-Dec-22 19:26:48 - INFO - LaptopPeriferals.json > Keys made
+18-Dec-22 19:26:48 - INFO - LaptopPeriferals.json > JSON written
+18-Dec-22 19:26:48 - INFO - Mobile.json > JSON read
+18-Dec-22 19:26:48 - INFO - Mobile.json > Keys made
+18-Dec-22 19:26:49 - INFO - Mobile.json > JSON written
+18-Dec-22 19:26:49 - INFO - Person.json > JSON read
+18-Dec-22 19:26:49 - INFO - Person.json > Keys made
+18-Dec-22 19:26:49 - INFO - Person.json > JSON written
+18-Dec-22 19:26:49 - INFO - Refrigerator.json > JSON read
+18-Dec-22 19:26:49 - INFO - Refrigerator.json > Keys made
+18-Dec-22 19:26:49 - INFO - Refrigerator.json > JSON written
+18-Dec-22 19:26:49 - INFO - Tablet.json > JSON read
+18-Dec-22 19:26:49 - INFO - Tablet.json > Keys made
+18-Dec-22 19:26:49 - INFO - Tablet.json > JSON written
+18-Dec-22 19:26:49 - INFO - TV.json > JSON read
+18-Dec-22 19:26:49 - INFO - TV.json > Keys made
+18-Dec-22 19:26:49 - INFO - TV.json > JSON written
+18-Dec-22 19:26:49 - INFO - WashingMachine.json > JSON read
+18-Dec-22 19:26:49 - INFO - WashingMachine.json > Keys made
+18-Dec-22 19:26:49 - INFO - WashingMachine.json > JSON written
+18-Dec-22 19:26:49 - INFO - WearableSmartDevice.json > JSON read
+18-Dec-22 19:26:49 - INFO - WearableSmartDevice.json > Keys made
+18-Dec-22 19:26:49 - INFO - WearableSmartDevice.json > JSON written
+18-Dec-22 19:26:49 - INFO - Creating files completed!
+18-Dec-22 19:26:49 - INFO - ID(s): ['1010', '3124']
+18-Dec-22 19:26:49 - INFO - Items read successfully
+18-Dec-22 19:26:49 - INFO - Items written to file successfully
+18-Dec-22 19:27:46 - WARNING - For: micro sd card reader AND battery: 4.35 v - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+18-Dec-22 19:27:46 - CRITICAL - Too many requests! need to cool down
+18-Dec-22 19:27:56 - INFO - Fetched from Bing!
+18-Dec-22 19:28:16 - WARNING - For: transparent silver AND rear flash - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+18-Dec-22 19:28:16 - CRITICAL - Too many requests! need to cool down
+18-Dec-22 19:28:24 - INFO - Fetched from Bing!
+18-Dec-22 19:28:45 - WARNING - For: 4 gb AND 2 - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+18-Dec-22 19:28:45 - CRITICAL - Too many requests! need to cool down
+18-Dec-22 19:28:55 - INFO - Fetched from Bing!
+18-Dec-22 19:29:17 - WARNING - For: v4.2 AND speaker phone - ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+18-Dec-22 19:29:17 - CRITICAL - Too many requests! need to cool down
+18-Dec-22 19:29:28 - INFO - Fetched from Bing!
+18-Dec-22 19:29:33 - INFO - Links fetched
+18-Dec-22 19:29:33 - INFO - Links dumped to file
+18-Dec-22 19:29:33 - INFO - Log - END
