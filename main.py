@@ -22,7 +22,7 @@ def main():
         sys.exit(1)
     else:
         Logger.write_info("ID(s): " + str(item_ids))
-    fetch_wiki(items_ids)
+    fetch_wiki(item_ids)
     preprocess(item_ids)
     fetch_links(5)
     fetch_data()
