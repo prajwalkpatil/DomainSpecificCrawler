@@ -5,6 +5,7 @@ from logger import Logger
 from fetch_links import fetch_links
 from fetch_data import fetch_data
 from read_data import read_data
+from fetch_wiki import fetch_wiki
 start_id = 1000
 item_ids = []
 
@@ -21,9 +22,9 @@ def main():
         sys.exit(1)
     else:
         Logger.write_info("ID(s): " + str(item_ids))
-
+    fetch_wiki(items_ids)
     preprocess(item_ids)
-    fetch_links(10)
+    fetch_links(5)
     fetch_data()
     read_data()
     Logger.end_log()

@@ -55,7 +55,10 @@ def create_search_terms(n=0):
         search_pairs = all_attr_combinations
     else:
         # ------------------------- Generate n random samples -------------------- #
-        search_pairs = random.sample(all_attr_combinations, n)
+        if(n < len(all_attr_combinations)):
+            search_pairs = random.sample(all_attr_combinations, n)
+        else:
+            search_pairs = all_attr_combinations
 
     # ------------ Generate search terms based on the pairs generated ------------ #
     for search_p in search_pairs:
@@ -91,7 +94,7 @@ def get_links():
         time.sleep(random.randrange(2, 4))
         for i in link_elements:
             link = i.get("href")
-            if(re.match(r"http\S*", str(link))):
+            if(re.match(r"http\S*", str(link)) and not re.match(r"\S*wikipedia\S*", str(link))):
                 link_results.add(link)
     link_list = list(link_results)
     Logger.write_info("Links fetched")

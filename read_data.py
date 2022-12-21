@@ -34,6 +34,14 @@ def fetch_data():
         fetched_items = json.load(items_f)
     with open(processed_file, "r") as processed_f:
         processed_items = json.load(processed_f)
+    items_all = processed_items.keys()
+    for id in items_all:
+        try:
+            with open(f"base/{item}.json", "r") as item:
+                processed_items[id].append(json.load(item))
+            Logger.write_info("Fetched Wiki data for ID - ", item)
+        except:
+            pass
     Logger.write_info("Data read from file.")
 
 
@@ -62,10 +70,15 @@ def get_co_occurrence_count(t1, t2, to_match):
 
 
 def get_occurrence_count(t1, to_match):
-    if re.match(r" ?yes ?| ?no ?", t1, re.IGNORECASE):
+    print("Matching -- ", t1, to_match)
+    try:
+        if re.match(r" ?yes ?| ?no ?", t1, re.IGNORECASE):
+            return 0
+        match_regex = r"\s" + t1 + r"\s"
+        this_string = str(to_match)
+        return len(re.findall(match_regex, this_string, re.IGNORECASE))
+    except:
         return 0
-    match_regex = r" " + t1 + r" "
-    return len(re.findall(match_regex, to_match, re.IGNORECASE))
 
 
 def assign_weights():
@@ -85,7 +98,7 @@ def assign_weights():
             for search_term in processed_items[i]:
                 if len(search_term) > 2:
                     count = get_occurrence_count(
-                        search_term, *fetched_content[url])
+                        search_term, fetched_content[url][0])
                     item_weights[url][i] += count
                     if count > 0:
                         matched_words[url][i].append(search_term)
