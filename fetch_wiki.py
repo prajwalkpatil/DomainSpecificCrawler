@@ -155,14 +155,10 @@ def fetch_wiki(item_list):
     for idx, i in enumerate(fetched_ids):
         fetched_ids[idx] = i.split(".")[0]
     global items_all
-    items_all = item_list
+    items_all = item_list.copy()
     for i in fetched_ids:
         if i in items_all:
             items_all.remove(i)
     print(items_all)
     fetch_wiki_items()
     Logger.write_info("Data fetched from WiKi")
-
-
-if __name__ == "__main__":
-    fetch_wiki(["1001", "2001"])

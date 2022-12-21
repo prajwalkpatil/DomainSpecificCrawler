@@ -14,7 +14,6 @@ def main():
     global item_ids
     Logger.start_log()
     create_files(start_id)
-
     item_ids = sys.argv[1:]
     if len(item_ids) < 1:
         Logger.write_error("No ID specified")
@@ -24,7 +23,7 @@ def main():
         Logger.write_info("ID(s): " + str(item_ids))
     fetch_wiki(item_ids)
     preprocess(item_ids)
-    fetch_links(5)
+    fetch_links(20)
     fetch_data()
     read_data()
     Logger.end_log()
