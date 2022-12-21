@@ -18,6 +18,7 @@ fetched_content = {}
 fetched_items = {}
 processed_items = {}
 weights = {}
+matched_words = {}
 data_file = 'intermediates/data.json'
 items_file = 'intermediates/items.json'
 processed_file = 'intermediates/items_processed.json'
@@ -63,27 +64,37 @@ def get_co_occurrence_count(t1, t2, to_match):
 def get_occurrence_count(t1, to_match):
     if re.match(r" ?yes ?| ?no ?", t1, re.IGNORECASE):
         return 0
-    match_regex = r".?" + t1 + r".?"
+    match_regex = r" " + t1 + r" "
     return len(re.findall(match_regex, to_match, re.IGNORECASE))
 
 
 def assign_weights():
     global weights
     global fetched_content
+    global matched_words
     item_ids = fetched_items.keys()
     item_weights = {}
     for url in fetched_content:
         item_weights[url] = {}
         for i in item_ids:
             item_weights[url][i] = 0
+        matched_words[url] = {}
+        for i in item_ids:
+            matched_words[url][i] = []
         for i in item_ids:
             for search_term in processed_items[i]:
-                item_weights[url][i] += get_occurrence_count(
-                    search_term, *fetched_content[url])
+                if len(search_term) > 2:
+                    count = get_occurrence_count(
+                        search_term, *fetched_content[url])
+                    item_weights[url][i] += count
+                    if count > 0:
+                        matched_words[url][i].append(search_term)
     for url in item_weights:
         w = []
         for i in item_weights[url]:
             w.append(item_weights[url][i])
+        if(w[0] > 0 and w[1] > 0):
+            print(url, w)
         w.sort()
         weights[url] = w[0]
     weights = sorted(weights.items(), key=lambda item: item[1], reverse=True)
@@ -95,6 +106,7 @@ def print_seed_urls():
     Logger.write_debug("URLs with weights:")
     for i in range(0, 10):
         Logger.write_info(f">> {weights[i][0]} - {weights[i][1]}")
+    Logger.write_info("Seed URL match:" + str(matched_words[weights[0][0]]))
 
 
 def read_data():
@@ -102,3 +114,7 @@ def read_data():
     assign_weights()
     process_link_content()
     print_seed_urls()
+
+
+if __name__ == "__main__":
+    read_data()
