@@ -93,8 +93,6 @@ def assign_weights():
         w = []
         for i in item_weights[url]:
             w.append(item_weights[url][i])
-        if(w[0] > 0 and w[1] > 0):
-            print(url, w)
         w.sort()
         weights[url] = w[0]
     weights = sorted(weights.items(), key=lambda item: item[1], reverse=True)
