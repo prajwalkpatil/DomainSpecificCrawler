@@ -35,3 +35,10 @@ def match_co_occurrence(t1, t2, to_match):
         r"\b)" + r"|" + r"(\b" + t2 + r")\s?&?-?/?(\b or \b)?(\b and \b)?(" + t1 + \
         r"\b)"
     return re.match(co_regex, to_match, re.IGNORECASE)
+
+
+def get_co_occurrence_count(t1, t2, to_match):
+    co_regex = r"(\b" + t1 + r")\s?&?-?/?(\b or \b)?(\b and \b)?(" + t2 + \
+        r"\b)" + r"|" + r"(\b" + t2 + r")\s?&?-?/?(\b or \b)?(\b and \b)?(" + t1 + \
+        r"\b)"
+    return len(re.findall(co_regex, to_match, re.IGNORECASE))
