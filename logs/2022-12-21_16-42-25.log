@@ -1,0 +1,87 @@
+21-Dec-22 16:42:25 - INFO - Log - START
+21-Dec-22 16:42:25 - INFO - People grouped.
+21-Dec-22 16:42:25 - INFO - CameraLens.json > JSON read
+21-Dec-22 16:42:25 - INFO - CameraLens.json > Keys made
+21-Dec-22 16:42:25 - INFO - CameraLens.json > JSON written
+21-Dec-22 16:42:25 - INFO - Laptop.json > JSON read
+21-Dec-22 16:42:25 - INFO - Laptop.json > Keys made
+21-Dec-22 16:42:25 - INFO - Laptop.json > JSON written
+21-Dec-22 16:42:25 - INFO - LaptopPeriferals.json > JSON read
+21-Dec-22 16:42:25 - INFO - LaptopPeriferals.json > Keys made
+21-Dec-22 16:42:25 - INFO - LaptopPeriferals.json > JSON written
+21-Dec-22 16:42:25 - INFO - Mobile.json > JSON read
+21-Dec-22 16:42:25 - INFO - Mobile.json > Keys made
+21-Dec-22 16:42:25 - INFO - Mobile.json > JSON written
+21-Dec-22 16:42:25 - INFO - Person.json > JSON read
+21-Dec-22 16:42:25 - INFO - Person.json > Keys made
+21-Dec-22 16:42:25 - INFO - Person.json > JSON written
+21-Dec-22 16:42:25 - INFO - Refrigerator.json > JSON read
+21-Dec-22 16:42:25 - INFO - Refrigerator.json > Keys made
+21-Dec-22 16:42:25 - INFO - Refrigerator.json > JSON written
+21-Dec-22 16:42:25 - INFO - Tablet.json > JSON read
+21-Dec-22 16:42:25 - INFO - Tablet.json > Keys made
+21-Dec-22 16:42:25 - INFO - Tablet.json > JSON written
+21-Dec-22 16:42:25 - INFO - TV.json > JSON read
+21-Dec-22 16:42:25 - INFO - TV.json > Keys made
+21-Dec-22 16:42:25 - INFO - TV.json > JSON written
+21-Dec-22 16:42:25 - INFO - WashingMachine.json > JSON read
+21-Dec-22 16:42:25 - INFO - WashingMachine.json > Keys made
+21-Dec-22 16:42:25 - INFO - WashingMachine.json > JSON written
+21-Dec-22 16:42:25 - INFO - WearableSmartDevice.json > JSON read
+21-Dec-22 16:42:25 - INFO - WearableSmartDevice.json > Keys made
+21-Dec-22 16:42:26 - INFO - WearableSmartDevice.json > JSON written
+21-Dec-22 16:42:26 - INFO - Creating files completed!
+21-Dec-22 16:42:26 - INFO - ID(s): ['3219', '1001']
+21-Dec-22 16:42:26 - INFO - Items read successfully
+21-Dec-22 16:42:26 - INFO - Items written to file successfully
+21-Dec-22 16:42:57 - INFO - Links fetched
+21-Dec-22 16:42:57 - INFO - Links dumped to file
+21-Dec-22 16:42:57 - INFO - Links read from file.
+21-Dec-22 16:42:59 - ERROR - Error while reading webpage
+21-Dec-22 16:42:59 - ERROR - Error while reading webpage
+21-Dec-22 16:43:01 - ERROR - Error while reading webpage
+21-Dec-22 16:43:02 - ERROR - Error while reading webpage
+21-Dec-22 16:43:02 - ERROR - Error while reading webpage
+21-Dec-22 16:43:03 - ERROR - Error while reading webpage
+21-Dec-22 16:43:03 - ERROR - Error while reading webpage
+21-Dec-22 16:43:07 - ERROR - Error while reading webpage
+21-Dec-22 16:43:07 - ERROR - Error while reading webpage
+21-Dec-22 16:43:07 - ERROR - Error while reading webpage
+21-Dec-22 16:43:07 - ERROR - Error while reading webpage
+21-Dec-22 16:43:08 - ERROR - Error while reading webpage
+21-Dec-22 16:43:08 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:12 - ERROR - Error while reading webpage
+21-Dec-22 16:43:14 - ERROR - Error while reading webpage
+21-Dec-22 16:43:15 - ERROR - Error while reading webpage
+21-Dec-22 16:43:18 - ERROR - Error while reading webpage
+21-Dec-22 16:43:19 - ERROR - Error while reading webpage
+21-Dec-22 16:43:23 - ERROR - Error while reading webpage
+21-Dec-22 16:43:28 - ERROR - Error while reading webpage
+21-Dec-22 16:43:31 - ERROR - Error while reading webpage
+21-Dec-22 16:43:33 - ERROR - Error while reading webpage
+21-Dec-22 16:43:33 - ERROR - Error while reading webpage
+21-Dec-22 16:43:34 - ERROR - Error while reading webpage
+21-Dec-22 16:43:35 - ERROR - Error while reading webpage
+21-Dec-22 16:43:35 - INFO - Number of pages read - 144
+21-Dec-22 16:43:35 - INFO - Time taken to read all the pages - 37.67892360687256 secs
+21-Dec-22 16:43:35 - INFO - Data written to the JSON file
+21-Dec-22 16:43:35 - INFO - Data read from file.
+21-Dec-22 16:45:13 - INFO - Weights assigned.
+21-Dec-22 16:45:20 - INFO - Text from links processed.
+21-Dec-22 16:45:20 - INFO - >> https://to-name.ru/english/biography/joseph-biden.htm - 19
+21-Dec-22 16:45:20 - INFO - >> https://journalism-history.org/2020/11/07/finneman-podcast-the-historic-election-of-kamala-harris/ - 6
+21-Dec-22 16:45:20 - INFO - >> https://www.lawenforcementtoday.com/in-rare-act-of-journalism-nbcs-lester-holt-presses-kamala-harris-on-failure-to-visit-the-border/ - 3
+21-Dec-22 16:45:20 - INFO - >> https://www.newstatesman.com/world/americas/north-america/2022/11/kamala-harris-became-a-liability - 3
+21-Dec-22 16:45:20 - INFO - >> https://www.breitbart.com/politics/2020/10/28/journalist-who-exposed-planned-parenthood-kamala-harris-weaponized-her-office-to-punish-me-on-behalf-of-her-donors/ - 2
+21-Dec-22 16:45:20 - INFO - >> https://en.wikipedia.org/wiki/Joe_Biden - 2
+21-Dec-22 16:45:20 - INFO - >> https://simple.wikipedia.org/wiki/Joe_Biden - 2
+21-Dec-22 16:45:20 - INFO - >> https://www.city-journal.org/kamala-harris-california - 2
+21-Dec-22 16:45:20 - INFO - >> https://www.jou.ufl.edu/insights/i-am-speaking-2020-vp-nominee-kamala-harris-impact-of-black-feminism-as-social-influencers-on-twitter/ - 2
+21-Dec-22 16:45:20 - INFO - >> https://www.rightjournalism.com/report-jill-has-been-asking-if-theres-a-process-to-remove-a-sitting-vp/ - 2
+21-Dec-22 16:45:20 - INFO - Seed URL match:{'1001': ['black'], '3219': ['barack obama']}
+21-Dec-22 16:45:20 - INFO - Log - END

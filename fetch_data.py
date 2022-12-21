@@ -18,6 +18,7 @@ from collections import Counter
 from bs4 import BeautifulSoup
 from aiohttp import ClientSession
 from logger import Logger
+from tqdm.auto import tqdm
 
 link_file = 'intermediates/links.json'
 output_file = 'intermediates/data.json'
@@ -58,7 +59,7 @@ async def get_page(session, url):
                 for i in content:
                     article = article + ' ' + i.text
                 text_content.append(article)
-                Logger.write_debug(text_content)
+                Logger.write_debug("URL read -" + url)
                 output[url] = text_content
             elif r.status == 400:
                 Logger.write_error("Timeout - " + url)

@@ -8,6 +8,7 @@ import time
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from logger import Logger
+from tqdm.auto import tqdm
 
 useragent_list = []
 search_terms = []
@@ -62,10 +63,11 @@ def create_search_terms(n=0):
 
     # ------------ Generate search terms based on the pairs generated ------------ #
     for search_p in search_pairs:
-        term = f"{search_p[0]} AND {search_p[1]}"
-        search_terms.append(term)
+        if len(search_p[0]) > 2 and len(search_p[1]) > 2:
+            term = f"{search_p[0]} AND {search_p[1]}"
+            search_terms.append(term)
 
-    Logger.write_debug("Search terms: " + str(search_terms))
+    # Logger.write_debug("Search terms: " + str(search_terms))
 
 
 def get_links():
@@ -76,8 +78,8 @@ def get_links():
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:84.0) Gecko/20100101 Firefox/84.0'}
 
     link_results = set()
+    pbar = tqdm(desc="Fetching URLs: ", total=len(search_terms))
     for item in search_terms:
-        print(item)
         payload['q'] = item
         link_elements = []
         while link_elements == []:
@@ -96,6 +98,8 @@ def get_links():
             link = i.get("href")
             if(re.match(r"http\S*", str(link)) and not re.match(r"\S*wikipedia\S*", str(link))):
                 link_results.add(link)
+        pbar.update(1)
+    pbar.close()
     link_list = list(link_results)
     Logger.write_info("Links fetched")
     with open("./intermediates/links.json", "w") as links_file:

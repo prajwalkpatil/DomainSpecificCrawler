@@ -1,0 +1,84 @@
+21-Dec-22 15:07:01 - INFO - Log - START
+21-Dec-22 15:07:01 - INFO - People grouped.
+21-Dec-22 15:07:01 - INFO - CameraLens.json > JSON read
+21-Dec-22 15:07:01 - INFO - CameraLens.json > Keys made
+21-Dec-22 15:07:01 - INFO - CameraLens.json > JSON written
+21-Dec-22 15:07:01 - INFO - Laptop.json > JSON read
+21-Dec-22 15:07:01 - INFO - Laptop.json > Keys made
+21-Dec-22 15:07:01 - INFO - Laptop.json > JSON written
+21-Dec-22 15:07:01 - INFO - LaptopPeriferals.json > JSON read
+21-Dec-22 15:07:01 - INFO - LaptopPeriferals.json > Keys made
+21-Dec-22 15:07:01 - INFO - LaptopPeriferals.json > JSON written
+21-Dec-22 15:07:01 - INFO - Mobile.json > JSON read
+21-Dec-22 15:07:01 - INFO - Mobile.json > Keys made
+21-Dec-22 15:07:01 - INFO - Mobile.json > JSON written
+21-Dec-22 15:07:01 - INFO - Person.json > JSON read
+21-Dec-22 15:07:01 - INFO - Person.json > Keys made
+21-Dec-22 15:07:02 - INFO - Person.json > JSON written
+21-Dec-22 15:07:02 - INFO - Refrigerator.json > JSON read
+21-Dec-22 15:07:02 - INFO - Refrigerator.json > Keys made
+21-Dec-22 15:07:02 - INFO - Refrigerator.json > JSON written
+21-Dec-22 15:07:02 - INFO - Tablet.json > JSON read
+21-Dec-22 15:07:02 - INFO - Tablet.json > Keys made
+21-Dec-22 15:07:02 - INFO - Tablet.json > JSON written
+21-Dec-22 15:07:02 - INFO - TV.json > JSON read
+21-Dec-22 15:07:02 - INFO - TV.json > Keys made
+21-Dec-22 15:07:02 - INFO - TV.json > JSON written
+21-Dec-22 15:07:02 - INFO - WashingMachine.json > JSON read
+21-Dec-22 15:07:02 - INFO - WashingMachine.json > Keys made
+21-Dec-22 15:07:02 - INFO - WashingMachine.json > JSON written
+21-Dec-22 15:07:02 - INFO - WearableSmartDevice.json > JSON read
+21-Dec-22 15:07:02 - INFO - WearableSmartDevice.json > Keys made
+21-Dec-22 15:07:02 - INFO - WearableSmartDevice.json > JSON written
+21-Dec-22 15:07:02 - INFO - Creating files completed!
+21-Dec-22 15:07:02 - INFO - ID(s): ['3213', '1011']
+21-Dec-22 15:07:02 - INFO - Items read successfully
+21-Dec-22 15:07:02 - INFO - Items written to file successfully
+21-Dec-22 15:08:13 - INFO - Links fetched
+21-Dec-22 15:08:13 - INFO - Links dumped to file
+21-Dec-22 15:08:13 - INFO - Links read from file.
+21-Dec-22 15:08:20 - ERROR - Error while reading webpage
+21-Dec-22 15:08:25 - ERROR - Error while reading webpage
+21-Dec-22 15:08:28 - ERROR - Error while reading webpage
+21-Dec-22 15:08:38 - ERROR - Error while reading webpage
+21-Dec-22 15:08:39 - ERROR - Error while reading webpage
+21-Dec-22 15:08:39 - ERROR - Error while reading webpage
+21-Dec-22 15:08:39 - ERROR - Error while reading webpage
+21-Dec-22 15:08:41 - ERROR - Error while reading webpage
+21-Dec-22 15:08:45 - ERROR - Error while reading webpage
+21-Dec-22 15:08:47 - ERROR - Error while reading webpage
+21-Dec-22 15:08:47 - ERROR - Error while reading webpage
+21-Dec-22 15:08:52 - ERROR - Error while reading webpage
+21-Dec-22 15:08:58 - ERROR - Error while reading webpage
+21-Dec-22 15:09:00 - ERROR - Error while reading webpage
+21-Dec-22 15:09:00 - ERROR - Error while reading webpage
+21-Dec-22 15:09:00 - ERROR - Error while reading webpage
+21-Dec-22 15:09:00 - ERROR - Error while reading webpage
+21-Dec-22 15:09:00 - ERROR - Error while reading webpage
+21-Dec-22 15:09:01 - ERROR - Error while reading webpage
+21-Dec-22 15:09:02 - ERROR - Error while reading webpage
+21-Dec-22 15:09:02 - ERROR - Error while reading webpage
+21-Dec-22 15:09:03 - ERROR - Error while reading webpage
+21-Dec-22 15:09:03 - ERROR - Error while reading webpage
+21-Dec-22 15:09:03 - ERROR - Error while reading webpage
+21-Dec-22 15:09:03 - ERROR - Error while reading webpage
+21-Dec-22 15:09:09 - ERROR - Error while reading webpage
+21-Dec-22 15:09:10 - ERROR - Error while reading webpage
+21-Dec-22 15:09:11 - ERROR - Error while reading webpage
+21-Dec-22 15:09:19 - INFO - Number of pages read - 228
+21-Dec-22 15:09:19 - INFO - Time taken to read all the pages - 65.31141686439514 secs
+21-Dec-22 15:09:19 - INFO - Data written to the JSON file
+21-Dec-22 15:09:19 - INFO - Data read from file.
+21-Dec-22 15:09:20 - INFO - Weights assigned.
+21-Dec-22 15:09:21 - INFO - Text from links processed.
+21-Dec-22 15:09:21 - INFO - >> https://seekingalpha.com/instablog/5030701-mike-bruzzone/5665970-amd-and-intel-full-product-line-comparison - 966
+21-Dec-22 15:09:21 - INFO - >> https://en.wikipedia.org/wiki/Advanced_Micro_Devices - 396
+21-Dec-22 15:09:21 - INFO - >> https://en.wikipedia.org/wiki/Ed_Sheeran - 112
+21-Dec-22 15:09:21 - INFO - >> https://linustechtips.com/topic/359016-what-is-sata-123456/ - 112
+21-Dec-22 15:09:21 - INFO - >> https://ultimatepopculture.fandom.com/wiki/Ed_Sheeran - 109
+21-Dec-22 15:09:21 - INFO - >> https://www.giznext.com/pk/laptops/hp-15-ec0101ax-gaming-laptop-ryzen-5-8gb-1tb-win10-home-4gb-graph-gnt - 89
+21-Dec-22 15:09:21 - INFO - >> https://www.giznext.com/laptops/hp-15-ec0101ax-gaming-laptop-ryzen-5-8gb-1tb-win10-home-4gb-graph-gnt - 89
+21-Dec-22 15:09:21 - INFO - >> https://en.wikipedia.org/wiki/SATA - 89
+21-Dec-22 15:09:21 - INFO - >> https://www.notebookcheck.net/AMD-Ryzen-5-3550H-Processor.391031.0.html - 70
+21-Dec-22 15:09:21 - INFO - >> https://www.91mobiles.com/hp-15-ec0101ax-167w1pa-amd-quad-core-ryzen-5-8-gb-1-tb-windows-10-laptop-price-in-india-138737 - 68
+21-Dec-22 15:09:21 - INFO - Log - END

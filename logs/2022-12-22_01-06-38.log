@@ -1,0 +1,123 @@
+22-Dec-22 01:06:38 - INFO - Log - START
+22-Dec-22 01:06:38 - INFO - People grouped.
+22-Dec-22 01:06:38 - INFO - CameraLens.json > JSON read
+22-Dec-22 01:06:38 - INFO - CameraLens.json > Keys made
+22-Dec-22 01:06:38 - INFO - CameraLens.json > JSON written
+22-Dec-22 01:06:38 - INFO - Laptop.json > JSON read
+22-Dec-22 01:06:38 - INFO - Laptop.json > Keys made
+22-Dec-22 01:06:38 - INFO - Laptop.json > JSON written
+22-Dec-22 01:06:38 - INFO - LaptopPeriferals.json > JSON read
+22-Dec-22 01:06:38 - INFO - LaptopPeriferals.json > Keys made
+22-Dec-22 01:06:38 - INFO - LaptopPeriferals.json > JSON written
+22-Dec-22 01:06:38 - INFO - Mobile.json > JSON read
+22-Dec-22 01:06:38 - INFO - Mobile.json > Keys made
+22-Dec-22 01:06:38 - INFO - Mobile.json > JSON written
+22-Dec-22 01:06:38 - INFO - Person.json > JSON read
+22-Dec-22 01:06:38 - INFO - Person.json > Keys made
+22-Dec-22 01:06:38 - INFO - Person.json > JSON written
+22-Dec-22 01:06:38 - INFO - Refrigerator.json > JSON read
+22-Dec-22 01:06:38 - INFO - Refrigerator.json > Keys made
+22-Dec-22 01:06:38 - INFO - Refrigerator.json > JSON written
+22-Dec-22 01:06:38 - INFO - Tablet.json > JSON read
+22-Dec-22 01:06:38 - INFO - Tablet.json > Keys made
+22-Dec-22 01:06:39 - INFO - Tablet.json > JSON written
+22-Dec-22 01:06:39 - INFO - TV.json > JSON read
+22-Dec-22 01:06:39 - INFO - TV.json > Keys made
+22-Dec-22 01:06:39 - INFO - TV.json > JSON written
+22-Dec-22 01:06:39 - INFO - WashingMachine.json > JSON read
+22-Dec-22 01:06:39 - INFO - WashingMachine.json > Keys made
+22-Dec-22 01:06:39 - INFO - WashingMachine.json > JSON written
+22-Dec-22 01:06:39 - INFO - WearableSmartDevice.json > JSON read
+22-Dec-22 01:06:39 - INFO - WearableSmartDevice.json > Keys made
+22-Dec-22 01:06:39 - INFO - WearableSmartDevice.json > JSON written
+22-Dec-22 01:06:39 - INFO - Creating files completed!
+22-Dec-22 01:06:39 - INFO - ID(s): ['3236', '2101']
+22-Dec-22 01:06:39 - INFO - Fetching data from WiKi
+22-Dec-22 01:06:39 - INFO - Items read successfully
+22-Dec-22 01:09:11 - INFO - Item 2101 WiKi data written to JSON!
+22-Dec-22 01:10:14 - INFO - Item 3236 WiKi data written to JSON!
+22-Dec-22 01:10:14 - INFO - Data fetched from WiKi
+22-Dec-22 01:10:14 - INFO - Items read successfully
+22-Dec-22 01:10:14 - INFO - Items written to file successfully
+22-Dec-22 01:12:18 - INFO - Links fetched
+22-Dec-22 01:12:18 - INFO - Links dumped to file
+22-Dec-22 01:12:18 - INFO - Links read from file.
+22-Dec-22 01:12:18 - ERROR - Error while reading webpage
+22-Dec-22 01:12:19 - ERROR - Error while reading webpage
+22-Dec-22 01:12:21 - ERROR - Error while reading webpage
+22-Dec-22 01:12:22 - ERROR - Error while reading webpage
+22-Dec-22 01:12:23 - ERROR - Error while reading webpage
+22-Dec-22 01:12:24 - ERROR - Error while reading webpage
+22-Dec-22 01:12:24 - ERROR - Error while reading webpage
+22-Dec-22 01:12:25 - ERROR - Error while reading webpage
+22-Dec-22 01:12:25 - ERROR - Error while reading webpage
+22-Dec-22 01:12:27 - ERROR - Error while reading webpage
+22-Dec-22 01:12:28 - ERROR - Error while reading webpage
+22-Dec-22 01:12:29 - ERROR - Error while reading webpage
+22-Dec-22 01:12:29 - ERROR - Error while reading webpage
+22-Dec-22 01:12:31 - ERROR - Error while reading webpage
+22-Dec-22 01:12:32 - ERROR - Error while reading webpage
+22-Dec-22 01:12:34 - ERROR - Error while reading webpage
+22-Dec-22 01:12:35 - ERROR - Error while reading webpage
+22-Dec-22 01:12:38 - ERROR - Error while reading webpage
+22-Dec-22 01:12:40 - ERROR - Error while reading webpage
+22-Dec-22 01:12:41 - ERROR - Error while reading webpage
+22-Dec-22 01:12:44 - ERROR - Error while reading webpage
+22-Dec-22 01:12:44 - ERROR - Error while reading webpage
+22-Dec-22 01:12:45 - ERROR - Error while reading webpage
+22-Dec-22 01:12:47 - ERROR - Error while reading webpage
+22-Dec-22 01:12:49 - ERROR - Error while reading webpage
+22-Dec-22 01:12:51 - ERROR - Error while reading webpage
+22-Dec-22 01:12:52 - ERROR - Error while reading webpage
+22-Dec-22 01:12:53 - ERROR - Error while reading webpage
+22-Dec-22 01:12:54 - ERROR - Error while reading webpage
+22-Dec-22 01:12:55 - ERROR - Error while reading webpage
+22-Dec-22 01:12:55 - ERROR - Error while reading webpage
+22-Dec-22 01:12:56 - ERROR - Error while reading webpage
+22-Dec-22 01:12:56 - ERROR - Error while reading webpage
+22-Dec-22 01:12:56 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:12:57 - ERROR - Error while reading webpage
+22-Dec-22 01:13:01 - ERROR - Error while reading webpage
+22-Dec-22 01:13:01 - ERROR - Error while reading webpage
+22-Dec-22 01:13:03 - ERROR - Error while reading webpage
+22-Dec-22 01:13:03 - ERROR - Error while reading webpage
+22-Dec-22 01:13:03 - ERROR - Error while reading webpage
+22-Dec-22 01:13:03 - ERROR - Error while reading webpage
+22-Dec-22 01:13:03 - ERROR - Error while reading webpage
+22-Dec-22 01:13:04 - ERROR - Error while reading webpage
+22-Dec-22 01:13:04 - ERROR - Error while reading webpage
+22-Dec-22 01:13:04 - ERROR - Error while reading webpage
+22-Dec-22 01:13:04 - ERROR - Error while reading webpage
+22-Dec-22 01:13:05 - ERROR - Error while reading webpage
+22-Dec-22 01:13:05 - ERROR - Error while reading webpage
+22-Dec-22 01:13:05 - ERROR - Error while reading webpage
+22-Dec-22 01:13:05 - ERROR - Error while reading webpage
+22-Dec-22 01:13:07 - ERROR - Error while reading webpage
+22-Dec-22 01:13:08 - ERROR - Error while reading webpage
+22-Dec-22 01:13:16 - ERROR - Error while reading webpage
+22-Dec-22 01:13:48 - ERROR - Error while reading webpage
+22-Dec-22 01:13:48 - ERROR - Error while reading webpage
+22-Dec-22 01:13:48 - INFO - Number of pages read - 427
+22-Dec-22 01:13:48 - INFO - Time taken to read all the pages - 90.14581370353699 secs
+22-Dec-22 01:13:48 - INFO - Data written to the JSON file
+22-Dec-22 01:13:48 - INFO - Data read from file.
+22-Dec-22 01:40:19 - INFO - Weights assigned.
+22-Dec-22 01:40:22 - INFO - Text from links processed.
+22-Dec-22 01:40:22 - INFO - >> https://blog.ckworld.in/narendra-modi/ - 541
+22-Dec-22 01:40:22 - INFO - >> https://www.gsmarena.com/glossary.php3?term=secondary-camera - 461
+22-Dec-22 01:40:22 - INFO - >> https://alchetron.com/Narendra-Modi - 407
+22-Dec-22 01:40:22 - INFO - >> https://wiki.alquds.edu/?query=Bharatiya_Janata_Party - 296
+22-Dec-22 01:40:22 - INFO - >> https://india.fandom.com/wiki/Bharatiya_Janata_Party - 279
+22-Dec-22 01:40:22 - INFO - >> https://cocodoc.com/form/2112008-fillable-form-990-schedule-d - 215
+22-Dec-22 01:40:22 - INFO - >> https://www.collegedekho.com/articles/top-bba-colleges-of-delhi-university-bbe-bba-fia-bms-seat-matrix-fees/ - 184
+22-Dec-22 01:40:22 - INFO - >> https://dailygkupdate.com/awards-and-honours-2021/ - 175
+22-Dec-22 01:40:22 - INFO - >> https://www.letsstudytogether.co/list-of-important-awards-and-honours/ - 172
+22-Dec-22 01:40:22 - INFO - >> https://universitykart.com/university/universitycourse/gujarat-university/master-of-arts-in-political-science - 167
+22-Dec-22 01:40:22 - INFO - Seed URL match:{'2101': ['nano', 'Data', 'Protection', 'Japan', 'Email address', 'Obsolete', 'Pew Research Center', 'Border', 'Google', 'Twitter', 'Science', 'Million', 'Learning', 'The Times of India', 'Air Force', 'Energy', 'Information', 'Copyright', 'Muslims', 'Drama film', 'Surveillance', 'Income inequality', 'Brand', 'Water', 'France', 'History', 'Black', 'Person', 'Odds', 'Matter', 'Death', 'One', 'China', 'Result', 'Plant', 'Morning', 'Government', 'Friction', 'Buddhist', 'Education', 'Security', 'Printing', 'Magazine', 'Forbes', 'Second', 'System', 'Area', 'Decade', 'Number', 'GDP', '2022', 'Signature', 'Summer', 'Engineering', 'Delhi', 'Good', 'Conducting', 'Environmental', 'War', 'Family', 'Packaging', 'Reason', 'Attention', 'Party', 'Percent', 'Climate', 'Carbon', 'Operation', 'United States', 'Email', 'Hindu', 'Network', 'European Union', 'Region', 'Politics', 'Force', 'Google+', 'A minor', 'LED', 'Addition', 'Society', 'Texas', 'Secondary education', 'Donald Trump', 'Zero', 'Mass', 'West Bengal', 'Premise', 'Time', 'Islamic', 'Tibet', 'Earthquake', 'Emergency', 'Description', 'Television', 'Planning', 'Feature', 'Policy', 'Member of parliament', 'Film', 'King', 'Cost', 'New York City', 'Internet access', 'Safe', 'Office', 'Carbon neutrality', 'Intention', 'Award', 'Acre', 'Statue', 'Business', 'Adult', 'Nutrition', 'The Case', 'Image', 'NeXT', 'Asia', 'Peace', 'Book', 'Internet', 'Facebook', 'India', 'Fraction', 'Seoul', 'Future', 'East Asia', 'Fire', 'News network', 'Ukraine', 'Genetically modified', 'Australia', 'Average', 'BJP', 'Telephone', 'Law', 'Former', 'Economy', 'Technology', 'Textbook', 'Human', 'Day', 'Record', 'Narendra Modi', 'Docudrama', 'Barack Obama', 'Radio', 'Life', 'Distance', 'Time (magazine)', 'Top', 'Religious'], '3236': ['indian', 'bharatiya janata party', 'national democratic alliance', 'April', 'Japan', 'Politician', 'Discovery+', 'Obsolete', 'Bharatiya Janata Party', 'Indian Air Force', 'Twitter', 'Advaita Ashrama', 'Science', 'February', '2002 Gujarat violence', 'The Times of India', 'CNN-News18', 'Energy', 'Nation', 'Bharatiya Kisan Sangh', 'Bharatiya Janata Party campaign for the 2014 Indian general election', 'Electricity', 'Presidency', 'Nature', 'Income inequality', 'Betrothal', 'December', 'Brand', 'Ambassador', 'France', 'History', 'Honour', 'Person', 'Matter', 'China', 'Plant', 'By-election', 'Morning', 'Government', 'Ayodhya', 'March', 'Friction', 'Suit', 'Uncle', 'Buddhist', 'Education', 'Independence Day', 'June', 'Election', 'Forbes', 'Spouse', 'Arvind Kejriwal', 'Official', 'May', 'Bangladesh', 'Bill & Melinda Gates Foundation', 'Mehsana', 'Second', 'Female', 'Janata Party', 'Almora', 'East Delhi', 'Community', 'Master of Arts', 'Decade', 'Mining', 'Atal Bihari Vajpayee', 'Ashish Sharma', 'Yadav', 'Arab', 'Bhuj', '2022', 'Biopic', 'Political science', 'Ancient India', 'Signature', 'Andhra', 'Engineering', 'August', 'Aam Aadmi Party', 'Jawaharlal Nehru', 'Adopted', '2012 Gujarat Legislative Assembly election', '2002 Gujarat Legislative Assembly election', 'Delhi', 'COVID-19', 'War', 'Chand Bujh Gaya', 'Family', '2019 Indian general election', 'Reason', 'Vadodara', 'RSS', '2002 Gujarat riots', 'The Times', 'Bombay State', 'Married', 'Climate', 'British Empire', 'General', 'United States', 'Email', 'Hindu', 'Child', 'Prime Minister of Australia', 'Gujarat Legislative Assembly', 'Ceremony', 'European Union', 'July', 'Chief Minister of Gujarat', 'Government of Gujarat', 'Region', 'Politics', 'Force', 'Cultural', 'Groundwater', 'Refugee', 'Muslim', 'Gandhinagar', 'Donald Trump', 'China–India relations', 'Mass', 'Hanuman', 'Candidate', 'Anandiben Patel', 'Premise', 'Parties', 'Haryana', 'Hindus', 'Citizenship', 'College', 'Infant', 'Mother', 'Time', 'Country', 'Earthquake', 'Jyotigram Yojana', 'Description', 'Ahmedabad', 'Prime minister', 'Bombay state', 'Surat', 'Irrigation', 'Human rights', 'Legislative Assembly', 'Film', 'King', 'Illegal immigration', 'Land', 'People', 'Mayor', 'Year', 'Lok Sabha', 'COP26', 'Mumbai', 'Organization', 'Maternal mortality', 'Prior', 'Bandh', 'Land use', 'Wife', 'Office', 'Carbon neutrality', 'Hindutva', 'Godhra', 'Guru', 'Award', 'Bear', 'Clothing', 'Dinanath Batra', 'Vadnagar railway station', 'Democracy', 'Image', 'Gujarat', 'Marriage', 'Asia', 'Amicus curiae', 'Peace', 'Chief minister', 'BSE SENSEX', 'Indian National Congress', 'Amit Shah', '2016 Uri attack', 'Bear Grylls', 'January', 'Bharatiya Jana Sangh', 'Facebook', 'India', 'Article 370', 'City', 'Bloomberg Markets', 'Prime Minister of India', 'Future', 'Chowkidar Chor Hai', 'East Asia', '.in', 'Ukraine', 'Chandra', 'Digital India', 'Australia', 'Uttar Pradesh', 'Pakistan', 'BJP', 'Name', 'Law', 'Bengal', 'Home', 'Rajkot', 'Bachelor of Arts', 'Human', 'Bharatiya Janata Party campaign for the 2019 Indian general election', 'Belur Math', 'Tea', 'Narendra Modi', 'Docudrama', '2007 Gujarat Legislative Assembly election', '2014 Indian general election', 'School', 'Barack Obama', 'Immigration', 'Life', 'Government of India', 'Distance', 'Centenarian', 'Criticism', 'States', 'Hindu temple', 'Religious']}
+22-Dec-22 01:40:22 - INFO - Log - END

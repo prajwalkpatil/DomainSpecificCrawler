@@ -4,6 +4,8 @@ import sys
 import os
 import nltk
 from logger import Logger
+from tqdm.auto import tqdm
+
 
 items_all = []
 item_values = {}
@@ -134,12 +136,15 @@ def get_data():
 
 def get_wiki():
     global item_values
+    pbar = tqdm(desc="Fetching from WIKI: ", total=len(item_values))
     for i in item_values:
         item_values[i] = set(item_values[i])
         item_values[i] = list(item_values[i])
         for j in item_values[i]:
             generate(j, i)
         dump_specific(i)
+        pbar.update(1)
+    pbar.close()
 
 
 def fetch_wiki_items():

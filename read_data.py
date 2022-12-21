@@ -1,7 +1,9 @@
 import os
 import re
 import json
+import sys
 import itertools
+from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
 import string
 import nltk
@@ -24,6 +26,20 @@ items_file = 'intermediates/items.json'
 processed_file = 'intermediates/items_processed.json'
 
 
+def remove_punctuation(text):
+    translator = str.maketrans("", "", string.punctuation)
+    return text.translate(translator)
+
+
+def process_wiki_data(arr):
+    reg_ex = r"\(.*\)"
+    for i in arr:
+        i = remove_punctuation(i)
+        i = re.sub(reg_ex, "", i)
+        i = i.lower()
+    return arr
+
+
 def fetch_data():
     global fetched_content
     global fetched_items
@@ -34,14 +50,14 @@ def fetch_data():
         fetched_items = json.load(items_f)
     with open(processed_file, "r") as processed_f:
         processed_items = json.load(processed_f)
-    items_all = processed_items.keys()
+    items_all = list(processed_items.keys())
     for id in items_all:
         try:
-            with open(f"base/{item}.json", "r") as item:
-                processed_items[id].append(json.load(item))
-            Logger.write_info("Fetched Wiki data for ID - ", item)
+            with open(f"base/{id}.json", "r") as item_FF:
+                processed_items[id].extend(
+                    process_wiki_data(json.load(item_FF)))
         except:
-            pass
+            continue
     Logger.write_info("Data read from file.")
 
 
@@ -57,11 +73,6 @@ def process_link_content():
     Logger.write_info("Text from links processed.")
 
 
-def remove_punctuation(text):
-    translator = str.maketrans("", "", string.punctuation)
-    return text.translate(translator)
-
-
 def get_co_occurrence_count(t1, t2, to_match):
     co_regex = r"(\b" + t1 + r")\s?(\s*&\s*)?(\s*-\s*)?(\s*/\s*)?(\b or \b)?(\b and \b)?(" + t2 + \
         r"\b)" + r"|" + r"(\b" + t2 + r")\s?(\s*&\s*)?(\s*-\s*)?(\s*/\s*)?(\b or \b)?(\b and \b)?(" + t1 + \
@@ -70,7 +81,6 @@ def get_co_occurrence_count(t1, t2, to_match):
 
 
 def get_occurrence_count(t1, to_match):
-    print("Matching -- ", t1, to_match)
     try:
         if re.match(r" ?yes ?| ?no ?", t1, re.IGNORECASE):
             return 0
@@ -87,7 +97,8 @@ def assign_weights():
     global matched_words
     item_ids = fetched_items.keys()
     item_weights = {}
-    for url in fetched_content:
+    pbar = tqdm(desc="Comparing data: ", total=len(fetched_content))
+    for idx, url in enumerate(fetched_content):
         item_weights[url] = {}
         for i in item_ids:
             item_weights[url][i] = 0
@@ -102,6 +113,9 @@ def assign_weights():
                     item_weights[url][i] += count
                     if count > 0:
                         matched_words[url][i].append(search_term)
+        pbar.update(1)
+    pbar.close()
+    print("Comparison done.")
     for url in item_weights:
         w = []
         for i in item_weights[url]:

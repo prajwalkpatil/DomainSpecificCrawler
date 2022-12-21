@@ -1,0 +1,137 @@
+21-Dec-22 19:26:55 - INFO - Log - START
+21-Dec-22 19:26:55 - INFO - People grouped.
+21-Dec-22 19:26:55 - INFO - CameraLens.json > JSON read
+21-Dec-22 19:26:55 - INFO - CameraLens.json > Keys made
+21-Dec-22 19:26:55 - INFO - CameraLens.json > JSON written
+21-Dec-22 19:26:55 - INFO - Laptop.json > JSON read
+21-Dec-22 19:26:55 - INFO - Laptop.json > Keys made
+21-Dec-22 19:26:55 - INFO - Laptop.json > JSON written
+21-Dec-22 19:26:55 - INFO - LaptopPeriferals.json > JSON read
+21-Dec-22 19:26:55 - INFO - LaptopPeriferals.json > Keys made
+21-Dec-22 19:26:55 - INFO - LaptopPeriferals.json > JSON written
+21-Dec-22 19:26:55 - INFO - Mobile.json > JSON read
+21-Dec-22 19:26:55 - INFO - Mobile.json > Keys made
+21-Dec-22 19:26:55 - INFO - Mobile.json > JSON written
+21-Dec-22 19:26:55 - INFO - Person.json > JSON read
+21-Dec-22 19:26:55 - INFO - Person.json > Keys made
+21-Dec-22 19:26:55 - INFO - Person.json > JSON written
+21-Dec-22 19:26:55 - INFO - Refrigerator.json > JSON read
+21-Dec-22 19:26:55 - INFO - Refrigerator.json > Keys made
+21-Dec-22 19:26:55 - INFO - Refrigerator.json > JSON written
+21-Dec-22 19:26:55 - INFO - Tablet.json > JSON read
+21-Dec-22 19:26:55 - INFO - Tablet.json > Keys made
+21-Dec-22 19:26:55 - INFO - Tablet.json > JSON written
+21-Dec-22 19:26:55 - INFO - TV.json > JSON read
+21-Dec-22 19:26:55 - INFO - TV.json > Keys made
+21-Dec-22 19:26:55 - INFO - TV.json > JSON written
+21-Dec-22 19:26:55 - INFO - WashingMachine.json > JSON read
+21-Dec-22 19:26:55 - INFO - WashingMachine.json > Keys made
+21-Dec-22 19:26:55 - INFO - WashingMachine.json > JSON written
+21-Dec-22 19:26:55 - INFO - WearableSmartDevice.json > JSON read
+21-Dec-22 19:26:55 - INFO - WearableSmartDevice.json > Keys made
+21-Dec-22 19:26:55 - INFO - WearableSmartDevice.json > JSON written
+21-Dec-22 19:26:55 - INFO - Creating files completed!
+21-Dec-22 19:26:55 - INFO - ID(s): ['3214', '1010']
+21-Dec-22 19:26:55 - INFO - Fetching data from WiKi
+21-Dec-22 19:26:56 - INFO - Items read successfully
+21-Dec-22 19:26:56 - INFO - Data fetched from WiKi
+21-Dec-22 19:26:56 - INFO - Items read successfully
+21-Dec-22 19:26:56 - INFO - Items written to file successfully
+21-Dec-22 19:29:00 - INFO - Links fetched
+21-Dec-22 19:29:00 - INFO - Links dumped to file
+21-Dec-22 19:29:00 - INFO - Links read from file.
+21-Dec-22 19:29:20 - ERROR - Error while reading webpage
+21-Dec-22 19:29:20 - ERROR - Error while reading webpage
+21-Dec-22 19:29:20 - ERROR - Error while reading webpage
+21-Dec-22 19:29:30 - ERROR - Error while reading webpage
+21-Dec-22 19:29:30 - ERROR - Error while reading webpage
+21-Dec-22 19:29:35 - ERROR - Error while reading webpage
+21-Dec-22 19:29:40 - ERROR - Error while reading webpage
+21-Dec-22 19:29:41 - ERROR - Error while reading webpage
+21-Dec-22 19:29:42 - ERROR - Error while reading webpage
+21-Dec-22 19:29:46 - ERROR - Error while reading webpage
+21-Dec-22 19:29:52 - ERROR - Error while reading webpage
+21-Dec-22 19:29:52 - ERROR - Error while reading webpage
+21-Dec-22 19:29:53 - ERROR - Error while reading webpage
+21-Dec-22 19:29:53 - ERROR - Error while reading webpage
+21-Dec-22 19:29:54 - ERROR - Error while reading webpage
+21-Dec-22 19:29:54 - ERROR - Error while reading webpage
+21-Dec-22 19:30:02 - ERROR - Error while reading webpage
+21-Dec-22 19:30:02 - ERROR - Error while reading webpage
+21-Dec-22 19:30:02 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:03 - ERROR - Error while reading webpage
+21-Dec-22 19:30:04 - ERROR - Error while reading webpage
+21-Dec-22 19:30:04 - ERROR - Error while reading webpage
+21-Dec-22 19:30:04 - ERROR - Error while reading webpage
+21-Dec-22 19:30:04 - ERROR - Error while reading webpage
+21-Dec-22 19:30:05 - ERROR - Error while reading webpage
+21-Dec-22 19:30:07 - ERROR - Error while reading webpage
+21-Dec-22 19:30:08 - ERROR - Error while reading webpage
+21-Dec-22 19:30:11 - ERROR - Error while reading webpage
+21-Dec-22 19:30:11 - ERROR - Error while reading webpage
+21-Dec-22 19:30:12 - ERROR - Error while reading webpage
+21-Dec-22 19:30:12 - ERROR - Error while reading webpage
+21-Dec-22 19:30:13 - ERROR - Error while reading webpage
+21-Dec-22 19:30:13 - ERROR - Error while reading webpage
+21-Dec-22 19:30:20 - ERROR - Error while reading webpage
+21-Dec-22 19:30:21 - ERROR - Error while reading webpage
+21-Dec-22 19:30:21 - ERROR - Error while reading webpage
+21-Dec-22 19:30:22 - ERROR - Error while reading webpage
+21-Dec-22 19:30:23 - ERROR - Error while reading webpage
+21-Dec-22 19:30:25 - ERROR - Error while reading webpage
+21-Dec-22 19:30:27 - ERROR - Error while reading webpage
+21-Dec-22 19:30:29 - ERROR - Error while reading webpage
+21-Dec-22 19:30:29 - ERROR - Error while reading webpage
+21-Dec-22 19:30:38 - ERROR - Error while reading webpage
+21-Dec-22 19:30:38 - ERROR - Error while reading webpage
+21-Dec-22 19:30:38 - ERROR - Error while reading webpage
+21-Dec-22 19:30:39 - ERROR - Error while reading webpage
+21-Dec-22 19:30:41 - ERROR - Error while reading webpage
+21-Dec-22 19:30:41 - ERROR - Error while reading webpage
+21-Dec-22 19:30:41 - ERROR - Error while reading webpage
+21-Dec-22 19:30:42 - ERROR - Error while reading webpage
+21-Dec-22 19:30:49 - ERROR - Error while reading webpage
+21-Dec-22 19:30:49 - ERROR - Error while reading webpage
+21-Dec-22 19:30:49 - ERROR - Error while reading webpage
+21-Dec-22 19:30:52 - ERROR - Error while reading webpage
+21-Dec-22 19:30:53 - ERROR - Error while reading webpage
+21-Dec-22 19:30:58 - ERROR - Error while reading webpage
+21-Dec-22 19:31:03 - ERROR - Error while reading webpage
+21-Dec-22 19:31:03 - ERROR - Error while reading webpage
+21-Dec-22 19:31:07 - ERROR - Error while reading webpage
+21-Dec-22 19:31:08 - ERROR - Error while reading webpage
+21-Dec-22 19:31:09 - ERROR - Error while reading webpage
+21-Dec-22 19:31:13 - ERROR - Error while reading webpage
+21-Dec-22 19:31:15 - ERROR - Error while reading webpage
+21-Dec-22 19:31:17 - ERROR - Error while reading webpage
+21-Dec-22 19:31:23 - ERROR - Error while reading webpage
+21-Dec-22 19:31:23 - ERROR - Error while reading webpage
+21-Dec-22 19:31:28 - ERROR - Error while reading webpage
+21-Dec-22 19:31:39 - ERROR - Error while reading webpage
+21-Dec-22 19:31:47 - ERROR - Error while reading webpage
+21-Dec-22 19:31:47 - ERROR - Error while reading webpage
+21-Dec-22 19:31:47 - ERROR - Error while reading webpage
+21-Dec-22 19:31:52 - ERROR - Error while reading webpage
+21-Dec-22 19:31:52 - INFO - Number of pages read - 474
+21-Dec-22 19:31:52 - INFO - Time taken to read all the pages - 171.86890649795532 secs
+21-Dec-22 19:31:52 - INFO - Data written to the JSON file
+21-Dec-22 19:31:52 - INFO - Data read from file.
+21-Dec-22 19:34:10 - INFO - Weights assigned.
+21-Dec-22 19:34:13 - INFO - Text from links processed.
+21-Dec-22 19:34:13 - INFO - >> https://cfindia.net/i5-11th-gen-vs-i7-10th-gen - 1
+21-Dec-22 19:34:13 - INFO - >> https://www.worldatlas.com/articles/who-founded-paypal.html - 0
+21-Dec-22 19:34:13 - INFO - >> https://pubmed.ncbi.nlm.nih.gov/29327988/ - 0
+21-Dec-22 19:34:13 - INFO - >> https://www.nextbigfuture.com/2020/12/elon-considering-x-holding-company-for-tesla-spacex-boring-company-and-neuralink.html - 0
+21-Dec-22 19:34:13 - INFO - >> https://learn.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-10-ltsc-2021-supported-intel-processors - 0
+21-Dec-22 19:34:13 - INFO - >> https://dir.indiamart.com/bengaluru/cctv-keyboard-controller.html - 0
+21-Dec-22 19:34:13 - INFO - >> https://dir.indiamart.com/bengaluru/membrane-keyboards.html - 0
+21-Dec-22 19:34:13 - INFO - >> https://www.youtube.com/watch?v=teL3jOrM-Dg - 0
+21-Dec-22 19:34:13 - INFO - >> https://www.dell.com/en-in/work/shop/dell-usb-c-45-w-ac-adapter-with-1meter-power-cord-india/apd/450-ajwo/pc-accessories - 0
+21-Dec-22 19:34:13 - INFO - >> https://www.paypal.com/ - 0
+21-Dec-22 19:34:13 - INFO - Seed URL match:{'1010': ['intel', '10th gen'], '3214': ['founder']}
+21-Dec-22 19:34:13 - INFO - Log - END

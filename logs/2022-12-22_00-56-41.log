@@ -1,0 +1,39 @@
+22-Dec-22 00:56:41 - INFO - Log - START
+22-Dec-22 00:56:41 - INFO - People grouped.
+22-Dec-22 00:56:41 - INFO - CameraLens.json > JSON read
+22-Dec-22 00:56:41 - INFO - CameraLens.json > Keys made
+22-Dec-22 00:56:41 - INFO - CameraLens.json > JSON written
+22-Dec-22 00:56:42 - INFO - Laptop.json > JSON read
+22-Dec-22 00:56:42 - INFO - Laptop.json > Keys made
+22-Dec-22 00:56:42 - INFO - Laptop.json > JSON written
+22-Dec-22 00:56:42 - INFO - LaptopPeriferals.json > JSON read
+22-Dec-22 00:56:42 - INFO - LaptopPeriferals.json > Keys made
+22-Dec-22 00:56:42 - INFO - LaptopPeriferals.json > JSON written
+22-Dec-22 00:56:42 - INFO - Mobile.json > JSON read
+22-Dec-22 00:56:42 - INFO - Mobile.json > Keys made
+22-Dec-22 00:56:42 - INFO - Mobile.json > JSON written
+22-Dec-22 00:56:42 - INFO - Person.json > JSON read
+22-Dec-22 00:56:42 - INFO - Person.json > Keys made
+22-Dec-22 00:56:42 - INFO - Person.json > JSON written
+22-Dec-22 00:56:42 - INFO - Refrigerator.json > JSON read
+22-Dec-22 00:56:42 - INFO - Refrigerator.json > Keys made
+22-Dec-22 00:56:42 - INFO - Refrigerator.json > JSON written
+22-Dec-22 00:56:42 - INFO - Tablet.json > JSON read
+22-Dec-22 00:56:42 - INFO - Tablet.json > Keys made
+22-Dec-22 00:56:42 - INFO - Tablet.json > JSON written
+22-Dec-22 00:56:42 - INFO - TV.json > JSON read
+22-Dec-22 00:56:42 - INFO - TV.json > Keys made
+22-Dec-22 00:56:42 - INFO - TV.json > JSON written
+22-Dec-22 00:56:42 - INFO - WashingMachine.json > JSON read
+22-Dec-22 00:56:42 - INFO - WashingMachine.json > Keys made
+22-Dec-22 00:56:42 - INFO - WashingMachine.json > JSON written
+22-Dec-22 00:56:42 - INFO - WearableSmartDevice.json > JSON read
+22-Dec-22 00:56:42 - INFO - WearableSmartDevice.json > Keys made
+22-Dec-22 00:56:42 - INFO - WearableSmartDevice.json > JSON written
+22-Dec-22 00:56:42 - INFO - Creating files completed!
+22-Dec-22 00:56:42 - INFO - ID(s): ['1020', '3198']
+22-Dec-22 00:56:42 - INFO - Fetching data from WiKi
+22-Dec-22 00:56:42 - INFO - Items read successfully
+22-Dec-22 00:56:42 - INFO - Data fetched from WiKi
+22-Dec-22 00:56:43 - INFO - Items read successfully
+22-Dec-22 00:56:43 - INFO - Items written to file successfully

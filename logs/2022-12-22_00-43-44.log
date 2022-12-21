@@ -1,0 +1,104 @@
+22-Dec-22 00:43:44 - INFO - Log - START
+22-Dec-22 00:43:44 - INFO - People grouped.
+22-Dec-22 00:43:44 - INFO - CameraLens.json > JSON read
+22-Dec-22 00:43:44 - INFO - CameraLens.json > Keys made
+22-Dec-22 00:43:44 - INFO - CameraLens.json > JSON written
+22-Dec-22 00:43:44 - INFO - Laptop.json > JSON read
+22-Dec-22 00:43:44 - INFO - Laptop.json > Keys made
+22-Dec-22 00:43:44 - INFO - Laptop.json > JSON written
+22-Dec-22 00:43:44 - INFO - LaptopPeriferals.json > JSON read
+22-Dec-22 00:43:44 - INFO - LaptopPeriferals.json > Keys made
+22-Dec-22 00:43:44 - INFO - LaptopPeriferals.json > JSON written
+22-Dec-22 00:43:44 - INFO - Mobile.json > JSON read
+22-Dec-22 00:43:44 - INFO - Mobile.json > Keys made
+22-Dec-22 00:43:45 - INFO - Mobile.json > JSON written
+22-Dec-22 00:43:45 - INFO - Person.json > JSON read
+22-Dec-22 00:43:45 - INFO - Person.json > Keys made
+22-Dec-22 00:43:45 - INFO - Person.json > JSON written
+22-Dec-22 00:43:45 - INFO - Refrigerator.json > JSON read
+22-Dec-22 00:43:45 - INFO - Refrigerator.json > Keys made
+22-Dec-22 00:43:45 - INFO - Refrigerator.json > JSON written
+22-Dec-22 00:43:45 - INFO - Tablet.json > JSON read
+22-Dec-22 00:43:45 - INFO - Tablet.json > Keys made
+22-Dec-22 00:43:45 - INFO - Tablet.json > JSON written
+22-Dec-22 00:43:45 - INFO - TV.json > JSON read
+22-Dec-22 00:43:45 - INFO - TV.json > Keys made
+22-Dec-22 00:43:45 - INFO - TV.json > JSON written
+22-Dec-22 00:43:45 - INFO - WashingMachine.json > JSON read
+22-Dec-22 00:43:45 - INFO - WashingMachine.json > Keys made
+22-Dec-22 00:43:45 - INFO - WashingMachine.json > JSON written
+22-Dec-22 00:43:45 - INFO - WearableSmartDevice.json > JSON read
+22-Dec-22 00:43:45 - INFO - WearableSmartDevice.json > Keys made
+22-Dec-22 00:43:45 - INFO - WearableSmartDevice.json > JSON written
+22-Dec-22 00:43:45 - INFO - Creating files completed!
+22-Dec-22 00:43:45 - INFO - ID(s): ['1020', '3198']
+22-Dec-22 00:43:45 - INFO - Fetching data from WiKi
+22-Dec-22 00:43:45 - INFO - Items read successfully
+22-Dec-22 00:45:39 - INFO - Item 1020 WiKi data written to JSON!
+22-Dec-22 00:47:14 - INFO - Item 3198 WiKi data written to JSON!
+22-Dec-22 00:47:14 - INFO - Data fetched from WiKi
+22-Dec-22 00:47:14 - INFO - Items read successfully
+22-Dec-22 00:47:14 - INFO - Items written to file successfully
+22-Dec-22 00:49:24 - INFO - Links fetched
+22-Dec-22 00:49:24 - INFO - Links dumped to file
+22-Dec-22 00:49:24 - INFO - Links read from file.
+22-Dec-22 00:49:28 - ERROR - Error while reading webpage
+22-Dec-22 00:49:31 - ERROR - Error while reading webpage
+22-Dec-22 00:49:32 - ERROR - Error while reading webpage
+22-Dec-22 00:49:34 - ERROR - Error while reading webpage
+22-Dec-22 00:49:34 - ERROR - Error while reading webpage
+22-Dec-22 00:49:35 - ERROR - Error while reading webpage
+22-Dec-22 00:49:35 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:36 - ERROR - Error while reading webpage
+22-Dec-22 00:49:38 - ERROR - Error while reading webpage
+22-Dec-22 00:49:39 - ERROR - Error while reading webpage
+22-Dec-22 00:49:39 - ERROR - Error while reading webpage
+22-Dec-22 00:49:40 - ERROR - Error while reading webpage
+22-Dec-22 00:49:43 - ERROR - Error while reading webpage
+22-Dec-22 00:49:44 - ERROR - Error while reading webpage
+22-Dec-22 00:49:44 - ERROR - Error while reading webpage
+22-Dec-22 00:49:44 - ERROR - Error while reading webpage
+22-Dec-22 00:49:45 - ERROR - Error while reading webpage
+22-Dec-22 00:49:52 - ERROR - Error while reading webpage
+22-Dec-22 00:49:56 - ERROR - Error while reading webpage
+22-Dec-22 00:49:59 - ERROR - Error while reading webpage
+22-Dec-22 00:50:02 - ERROR - Error while reading webpage
+22-Dec-22 00:50:04 - ERROR - Error while reading webpage
+22-Dec-22 00:50:09 - ERROR - Error while reading webpage
+22-Dec-22 00:50:09 - ERROR - Error while reading webpage
+22-Dec-22 00:50:10 - ERROR - Error while reading webpage
+22-Dec-22 00:50:10 - ERROR - Error while reading webpage
+22-Dec-22 00:50:10 - ERROR - Error while reading webpage
+22-Dec-22 00:50:10 - ERROR - Error while reading webpage
+22-Dec-22 00:50:11 - ERROR - Error while reading webpage
+22-Dec-22 00:50:12 - ERROR - Error while reading webpage
+22-Dec-22 00:50:22 - ERROR - Error while reading webpage
+22-Dec-22 00:50:25 - ERROR - Error while reading webpage
+22-Dec-22 00:50:28 - ERROR - Error while reading webpage
+22-Dec-22 00:50:31 - ERROR - Error while reading webpage
+22-Dec-22 00:50:31 - ERROR - Error while reading webpage
+22-Dec-22 00:50:31 - ERROR - Error while reading webpage
+22-Dec-22 00:50:32 - ERROR - Error while reading webpage
+22-Dec-22 00:50:32 - ERROR - Error while reading webpage
+22-Dec-22 00:50:32 - ERROR - Error while reading webpage
+22-Dec-22 00:50:33 - ERROR - Error while reading webpage
+22-Dec-22 00:50:33 - ERROR - Error while reading webpage
+22-Dec-22 00:50:34 - ERROR - Error while reading webpage
+22-Dec-22 00:50:35 - ERROR - Error while reading webpage
+22-Dec-22 00:50:35 - ERROR - Error while reading webpage
+22-Dec-22 00:50:35 - ERROR - Error while reading webpage
+22-Dec-22 00:50:35 - ERROR - Error while reading webpage
+22-Dec-22 00:50:35 - ERROR - Error while reading webpage
+22-Dec-22 00:50:37 - ERROR - Error while reading webpage
+22-Dec-22 00:50:37 - ERROR - Error while reading webpage
+22-Dec-22 00:50:38 - ERROR - Error while reading webpage
+22-Dec-22 00:50:40 - ERROR - Error while reading webpage
+22-Dec-22 00:50:41 - ERROR - Error while reading webpage
+22-Dec-22 00:50:43 - ERROR - Error while reading webpage
+22-Dec-22 00:50:44 - ERROR - Error while reading webpage

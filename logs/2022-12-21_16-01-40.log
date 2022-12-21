@@ -1,0 +1,36 @@
+21-Dec-22 16:01:40 - INFO - Log - START
+21-Dec-22 16:01:40 - INFO - People grouped.
+21-Dec-22 16:01:40 - INFO - CameraLens.json > JSON read
+21-Dec-22 16:01:40 - INFO - CameraLens.json > Keys made
+21-Dec-22 16:01:40 - INFO - CameraLens.json > JSON written
+21-Dec-22 16:01:40 - INFO - Laptop.json > JSON read
+21-Dec-22 16:01:40 - INFO - Laptop.json > Keys made
+21-Dec-22 16:01:40 - INFO - Laptop.json > JSON written
+21-Dec-22 16:01:40 - INFO - LaptopPeriferals.json > JSON read
+21-Dec-22 16:01:40 - INFO - LaptopPeriferals.json > Keys made
+21-Dec-22 16:01:40 - INFO - LaptopPeriferals.json > JSON written
+21-Dec-22 16:01:40 - INFO - Mobile.json > JSON read
+21-Dec-22 16:01:40 - INFO - Mobile.json > Keys made
+21-Dec-22 16:01:41 - INFO - Mobile.json > JSON written
+21-Dec-22 16:01:41 - INFO - Person.json > JSON read
+21-Dec-22 16:01:41 - INFO - Person.json > Keys made
+21-Dec-22 16:01:41 - INFO - Person.json > JSON written
+21-Dec-22 16:01:41 - INFO - Refrigerator.json > JSON read
+21-Dec-22 16:01:41 - INFO - Refrigerator.json > Keys made
+21-Dec-22 16:01:41 - INFO - Refrigerator.json > JSON written
+21-Dec-22 16:01:41 - INFO - Tablet.json > JSON read
+21-Dec-22 16:01:41 - INFO - Tablet.json > Keys made
+21-Dec-22 16:01:41 - INFO - Tablet.json > JSON written
+21-Dec-22 16:01:41 - INFO - TV.json > JSON read
+21-Dec-22 16:01:41 - INFO - TV.json > Keys made
+21-Dec-22 16:01:41 - INFO - TV.json > JSON written
+21-Dec-22 16:01:41 - INFO - WashingMachine.json > JSON read
+21-Dec-22 16:01:41 - INFO - WashingMachine.json > Keys made
+21-Dec-22 16:01:41 - INFO - WashingMachine.json > JSON written
+21-Dec-22 16:01:41 - INFO - WearableSmartDevice.json > JSON read
+21-Dec-22 16:01:41 - INFO - WearableSmartDevice.json > Keys made
+21-Dec-22 16:01:41 - INFO - WearableSmartDevice.json > JSON written
+21-Dec-22 16:01:41 - INFO - Creating files completed!
+21-Dec-22 16:01:41 - INFO - ID(s): ['3129', '1001']
+21-Dec-22 16:01:41 - INFO - Items read successfully
+21-Dec-22 16:01:41 - INFO - Items written to file successfully
