@@ -1,0 +1,5 @@
+aiohttp==3.8.1
+beautifulsoup4==4.11.1
+nltk==3.7
+requests==2.27.1
+tqdm==4.64.0
