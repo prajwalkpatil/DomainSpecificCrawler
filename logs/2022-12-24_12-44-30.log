@@ -1,0 +1,126 @@
+24-Dec-22 12:44:30 - INFO - Log - START
+24-Dec-22 12:44:30 - INFO - People grouped.
+24-Dec-22 12:44:30 - INFO - CameraLens.json > JSON read
+24-Dec-22 12:44:30 - INFO - CameraLens.json > Keys made
+24-Dec-22 12:44:30 - INFO - CameraLens.json > JSON written
+24-Dec-22 12:44:30 - INFO - Laptop.json > JSON read
+24-Dec-22 12:44:30 - INFO - Laptop.json > Keys made
+24-Dec-22 12:44:30 - INFO - Laptop.json > JSON written
+24-Dec-22 12:44:30 - INFO - LaptopPeriferals.json > JSON read
+24-Dec-22 12:44:30 - INFO - LaptopPeriferals.json > Keys made
+24-Dec-22 12:44:30 - INFO - LaptopPeriferals.json > JSON written
+24-Dec-22 12:44:30 - INFO - Mobile.json > JSON read
+24-Dec-22 12:44:30 - INFO - Mobile.json > Keys made
+24-Dec-22 12:44:31 - INFO - Mobile.json > JSON written
+24-Dec-22 12:44:31 - INFO - Person.json > JSON read
+24-Dec-22 12:44:31 - INFO - Person.json > Keys made
+24-Dec-22 12:44:31 - INFO - Person.json > JSON written
+24-Dec-22 12:44:31 - INFO - Refrigerator.json > JSON read
+24-Dec-22 12:44:31 - INFO - Refrigerator.json > Keys made
+24-Dec-22 12:44:31 - INFO - Refrigerator.json > JSON written
+24-Dec-22 12:44:31 - INFO - Tablet.json > JSON read
+24-Dec-22 12:44:31 - INFO - Tablet.json > Keys made
+24-Dec-22 12:44:31 - INFO - Tablet.json > JSON written
+24-Dec-22 12:44:31 - INFO - TV.json > JSON read
+24-Dec-22 12:44:31 - INFO - TV.json > Keys made
+24-Dec-22 12:44:31 - INFO - TV.json > JSON written
+24-Dec-22 12:44:31 - INFO - WashingMachine.json > JSON read
+24-Dec-22 12:44:31 - INFO - WashingMachine.json > Keys made
+24-Dec-22 12:44:31 - INFO - WashingMachine.json > JSON written
+24-Dec-22 12:44:31 - INFO - WearableSmartDevice.json > JSON read
+24-Dec-22 12:44:31 - INFO - WearableSmartDevice.json > Keys made
+24-Dec-22 12:44:31 - INFO - WearableSmartDevice.json > JSON written
+24-Dec-22 12:44:31 - INFO - Creating files completed!
+24-Dec-22 12:44:31 - INFO - ID(s): ['1001', '1916']
+24-Dec-22 12:44:31 - INFO - Fetching data from WiKi
+24-Dec-22 12:44:31 - INFO - Items read successfully
+24-Dec-22 12:48:20 - INFO - Item 1916 WiKi data written to JSON!
+24-Dec-22 12:48:20 - INFO - Data fetched from WiKi
+24-Dec-22 12:48:20 - INFO - Items read successfully
+24-Dec-22 12:48:20 - INFO - Items written to file successfully
+24-Dec-22 12:50:21 - INFO - Links fetched
+24-Dec-22 12:50:21 - INFO - Links dumped to file
+24-Dec-22 12:50:21 - INFO - Links read from file.
+24-Dec-22 12:50:35 - ERROR - Error while reading webpage
+24-Dec-22 12:50:39 - ERROR - Error while reading webpage
+24-Dec-22 12:50:39 - ERROR - Error while reading webpage
+24-Dec-22 12:50:39 - ERROR - Error while reading webpage
+24-Dec-22 12:50:39 - ERROR - Error while reading webpage
+24-Dec-22 12:50:40 - ERROR - Error while reading webpage
+24-Dec-22 12:50:42 - ERROR - Error while reading webpage
+24-Dec-22 12:50:42 - ERROR - Error while reading webpage
+24-Dec-22 12:50:43 - ERROR - Error while reading webpage
+24-Dec-22 12:50:44 - ERROR - Error while reading webpage
+24-Dec-22 12:50:46 - ERROR - Error while reading webpage
+24-Dec-22 12:50:46 - ERROR - Error while reading webpage
+24-Dec-22 12:50:46 - ERROR - Error while reading webpage
+24-Dec-22 12:50:47 - ERROR - Error while reading webpage
+24-Dec-22 12:50:50 - ERROR - Error while reading webpage
+24-Dec-22 12:50:53 - ERROR - Error while reading webpage
+24-Dec-22 12:50:53 - ERROR - Error while reading webpage
+24-Dec-22 12:50:54 - ERROR - Error while reading webpage
+24-Dec-22 12:50:54 - ERROR - Error while reading webpage
+24-Dec-22 12:50:54 - ERROR - Error while reading webpage
+24-Dec-22 12:50:57 - ERROR - Error while reading webpage
+24-Dec-22 12:51:06 - ERROR - Error while reading webpage
+24-Dec-22 12:51:09 - ERROR - Error while reading webpage
+24-Dec-22 12:51:09 - ERROR - Error while reading webpage
+24-Dec-22 12:51:11 - ERROR - Error while reading webpage
+24-Dec-22 12:51:11 - ERROR - Error while reading webpage
+24-Dec-22 12:51:12 - ERROR - Error while reading webpage
+24-Dec-22 12:51:12 - ERROR - Error while reading webpage
+24-Dec-22 12:51:13 - ERROR - Error while reading webpage
+24-Dec-22 12:51:19 - ERROR - Error while reading webpage
+24-Dec-22 12:51:19 - ERROR - Error while reading webpage
+24-Dec-22 12:51:21 - ERROR - Error while reading webpage
+24-Dec-22 12:51:21 - ERROR - Error while reading webpage
+24-Dec-22 12:51:24 - ERROR - Error while reading webpage
+24-Dec-22 12:51:26 - ERROR - Error while reading webpage
+24-Dec-22 12:51:26 - ERROR - Error while reading webpage
+24-Dec-22 12:51:38 - ERROR - Error while reading webpage
+24-Dec-22 12:51:41 - ERROR - Error while reading webpage
+24-Dec-22 12:51:41 - ERROR - Error while reading webpage
+24-Dec-22 12:51:42 - ERROR - Error while reading webpage
+24-Dec-22 12:51:44 - ERROR - Error while reading webpage
+24-Dec-22 12:51:44 - ERROR - Error while reading webpage
+24-Dec-22 12:51:44 - ERROR - Error while reading webpage
+24-Dec-22 12:51:45 - ERROR - Error while reading webpage
+24-Dec-22 12:51:46 - ERROR - Error while reading webpage
+24-Dec-22 12:51:47 - ERROR - Error while reading webpage
+24-Dec-22 12:51:47 - ERROR - Error while reading webpage
+24-Dec-22 12:51:49 - ERROR - Error while reading webpage
+24-Dec-22 12:51:49 - ERROR - Error while reading webpage
+24-Dec-22 12:51:50 - ERROR - Error while reading webpage
+24-Dec-22 12:51:50 - ERROR - Error while reading webpage
+24-Dec-22 12:51:54 - ERROR - Error while reading webpage
+24-Dec-22 12:51:55 - ERROR - Error while reading webpage
+24-Dec-22 12:51:55 - ERROR - Error while reading webpage
+24-Dec-22 12:51:56 - ERROR - Error while reading webpage
+24-Dec-22 12:51:56 - ERROR - Error while reading webpage
+24-Dec-22 12:51:58 - ERROR - Error while reading webpage
+24-Dec-22 12:51:58 - ERROR - Error while reading webpage
+24-Dec-22 12:52:02 - ERROR - Error while reading webpage
+24-Dec-22 12:52:04 - ERROR - Error while reading webpage
+24-Dec-22 12:52:05 - ERROR - Error while reading webpage
+24-Dec-22 12:52:10 - ERROR - Error while reading webpage
+24-Dec-22 12:52:10 - ERROR - Error while reading webpage
+24-Dec-22 12:52:12 - ERROR - Error while reading webpage
+24-Dec-22 12:52:27 - ERROR - Error while reading webpage
+24-Dec-22 12:52:27 - INFO - Number of pages read - 516
+24-Dec-22 12:52:27 - INFO - Time taken to read all the pages - 125.78888463973999 secs
+24-Dec-22 12:52:27 - INFO - Data written to the JSON file
+24-Dec-22 12:52:27 - INFO - Data read from file.
+24-Dec-22 12:57:30 - INFO - Weights assigned.
+24-Dec-22 12:57:35 - INFO - Text from links processed.
+24-Dec-22 12:57:35 - INFO - >> https://tastestl.com/best-lenses-for-nikon-z7/ - 3751
+24-Dec-22 12:57:35 - INFO - >> https://bestoflens.com/best-wide-angle-lens-for-canon/ - 1641
+24-Dec-22 12:57:35 - INFO - >> https://www.just-a-taste.com/best-macro-lens-for-nikon/ - 1377
+24-Dec-22 12:57:35 - INFO - >> http://photoseek.com/2013/compare-digital-camera-sensor-sizes-full-frame-35mm-aps-c-micro-four-thirds-1-inch-type/ - 1214
+24-Dec-22 12:57:35 - INFO - >> https://docs.oracle.com/en/database/oracle/oracle-database/19/cwadd/server-control-command-reference.html - 734
+24-Dec-22 12:57:35 - INFO - >> https://www.dpreview.com/articles/6519974919/macro-photography-understanding-magnification - 685
+24-Dec-22 12:57:35 - INFO - >> https://tastestl.com/best-lenses-for-red-komodo/ - 671
+24-Dec-22 12:57:35 - INFO - >> https://www.dpreview.com/news/3688798711/nikkei-says-nikon-stop-making-dslrs-nikon-says-it-s-still-making-selling-and-servicing-its-dslrs - 666
+24-Dec-22 12:57:35 - INFO - >> https://www.gsmarena.com/glossary.php3?term=fixed-focus - 647
+24-Dec-22 12:57:35 - INFO - >> https://www.dpreview.com/articles/8898540845/does-sensor-size-still-make-a-difference - 647
+24-Dec-22 12:57:35 - INFO - Seed URL match:['Building', 'Compound lens', 'Depth of field', 'Art', 'Plastic', 'Water', 'Digital filter', 'Hunting', 'War', 'Size', 'Japan', 'Science', 'Time', 'Length', 'Good', 'Sony', 'Light', 'Bokeh', 'Idea', 'Megapixel', 'Focus...', 'Shutter speed', 'Telescope', 'Operation Focus', 'Night', 'Photograph', 'Digital camera', 'Family', 'Distortion', 'Star', 'Signature', 'Image', 'Attention', 'Black', 'The Filter', 'Design', 'Color', 'Curvature', 'Glass', 'Country', 'Number', 'Angle', 'Camera', 'Pixel', 'Magnification', 'Field curvature', 'Lighting', 'Refractive index', 'Inches', 'Year', 'Speed', 'Distance', 'Bit', 'Photography', 'Inch', 'ISO', 'Aperture', 'Focal length', 'Planning', 'Chromatic aberration', 'Vehicle', 'Solid', 'Telephoto lens', 'Reason', 'Evolution', 'Optical', 'Lens flare', 'Best Buy', 'Photojournalism', 'Life', 'Film format', 'Image stabilization', 'The Front', 'Second', 'Color science', 'Underwater photography', 'Field of view', 'Day', 'Fact', 'Full-frame digital SLR', 'Sales', 'Weight', 'Mirrorless camera', 'Sensor', 'Purple', 'Prime lens', 'Autofocus', 'Brand', 'Light beam', 'APS-C', 'FOCUS', 'Evidence', 'Angle of view', 'System', 'Fluorite', 'Nikon', 'Zoom lens', 'Customer', 'Simple lens', 'Vignetting', 'Factory', 'Bird', 'Metal', 'Matter', 'Stopping down', 'Optics', 'Manufacturing', 'Sport', 'Barrel distortion', 'Editing', 'Touch', 'Diameter', 'Lens hood', 'Drawing']
+24-Dec-22 12:57:35 - INFO - Log - END

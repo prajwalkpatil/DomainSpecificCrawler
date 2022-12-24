@@ -1,0 +1,141 @@
+23-Dec-22 17:51:39 - INFO - Log - START
+23-Dec-22 17:51:40 - INFO - People grouped.
+23-Dec-22 17:51:40 - INFO - CameraLens.json > JSON read
+23-Dec-22 17:51:40 - INFO - CameraLens.json > Keys made
+23-Dec-22 17:51:40 - INFO - CameraLens.json > JSON written
+23-Dec-22 17:51:40 - INFO - Laptop.json > JSON read
+23-Dec-22 17:51:40 - INFO - Laptop.json > Keys made
+23-Dec-22 17:51:40 - INFO - Laptop.json > JSON written
+23-Dec-22 17:51:40 - INFO - LaptopPeriferals.json > JSON read
+23-Dec-22 17:51:40 - INFO - LaptopPeriferals.json > Keys made
+23-Dec-22 17:51:40 - INFO - LaptopPeriferals.json > JSON written
+23-Dec-22 17:51:40 - INFO - Mobile.json > JSON read
+23-Dec-22 17:51:40 - INFO - Mobile.json > Keys made
+23-Dec-22 17:51:40 - INFO - Mobile.json > JSON written
+23-Dec-22 17:51:40 - INFO - Person.json > JSON read
+23-Dec-22 17:51:40 - INFO - Person.json > Keys made
+23-Dec-22 17:51:40 - INFO - Person.json > JSON written
+23-Dec-22 17:51:40 - INFO - Refrigerator.json > JSON read
+23-Dec-22 17:51:40 - INFO - Refrigerator.json > Keys made
+23-Dec-22 17:51:41 - INFO - Refrigerator.json > JSON written
+23-Dec-22 17:51:41 - INFO - Tablet.json > JSON read
+23-Dec-22 17:51:41 - INFO - Tablet.json > Keys made
+23-Dec-22 17:51:41 - INFO - Tablet.json > JSON written
+23-Dec-22 17:51:41 - INFO - TV.json > JSON read
+23-Dec-22 17:51:41 - INFO - TV.json > Keys made
+23-Dec-22 17:51:41 - INFO - TV.json > JSON written
+23-Dec-22 17:51:41 - INFO - WashingMachine.json > JSON read
+23-Dec-22 17:51:41 - INFO - WashingMachine.json > Keys made
+23-Dec-22 17:51:41 - INFO - WashingMachine.json > JSON written
+23-Dec-22 17:51:41 - INFO - WearableSmartDevice.json > JSON read
+23-Dec-22 17:51:41 - INFO - WearableSmartDevice.json > Keys made
+23-Dec-22 17:51:42 - INFO - WearableSmartDevice.json > JSON written
+23-Dec-22 17:51:42 - INFO - Creating files completed!
+23-Dec-22 17:51:42 - INFO - ID(s): ['1008', '3268']
+23-Dec-22 17:51:42 - INFO - Fetching data from WiKi
+23-Dec-22 17:51:42 - INFO - Items read successfully
+23-Dec-22 17:52:38 - INFO - Item 1008 WiKi data written to JSON!
+23-Dec-22 17:53:15 - INFO - Item 3268 WiKi data written to JSON!
+23-Dec-22 17:53:15 - INFO - Data fetched from WiKi
+23-Dec-22 17:53:16 - INFO - Items read successfully
+23-Dec-22 17:53:16 - INFO - Items written to file successfully
+23-Dec-22 17:55:20 - INFO - Links fetched
+23-Dec-22 17:55:20 - INFO - Links dumped to file
+23-Dec-22 17:55:20 - INFO - Links read from file.
+23-Dec-22 17:55:24 - ERROR - Error while reading webpage
+23-Dec-22 17:55:26 - ERROR - Error while reading webpage
+23-Dec-22 17:55:26 - ERROR - Error while reading webpage
+23-Dec-22 17:55:26 - ERROR - Error while reading webpage
+23-Dec-22 17:55:27 - ERROR - Error while reading webpage
+23-Dec-22 17:55:29 - ERROR - Error while reading webpage
+23-Dec-22 17:55:29 - ERROR - Error while reading webpage
+23-Dec-22 17:55:29 - ERROR - Error while reading webpage
+23-Dec-22 17:55:39 - ERROR - Error while reading webpage
+23-Dec-22 17:55:39 - ERROR - Error while reading webpage
+23-Dec-22 17:55:41 - ERROR - Error while reading webpage
+23-Dec-22 17:55:43 - ERROR - Error while reading webpage
+23-Dec-22 17:55:43 - ERROR - Error while reading webpage
+23-Dec-22 17:55:44 - ERROR - Error while reading webpage
+23-Dec-22 17:55:46 - ERROR - Error while reading webpage
+23-Dec-22 17:55:46 - ERROR - Error while reading webpage
+23-Dec-22 17:55:49 - ERROR - Error while reading webpage
+23-Dec-22 17:55:50 - ERROR - Error while reading webpage
+23-Dec-22 17:55:50 - ERROR - Error while reading webpage
+23-Dec-22 17:55:52 - ERROR - Error while reading webpage
+23-Dec-22 17:55:52 - ERROR - Error while reading webpage
+23-Dec-22 17:55:53 - ERROR - Error while reading webpage
+23-Dec-22 17:55:54 - ERROR - Error while reading webpage
+23-Dec-22 17:55:54 - ERROR - Error while reading webpage
+23-Dec-22 17:55:54 - ERROR - Error while reading webpage
+23-Dec-22 17:55:56 - ERROR - Error while reading webpage
+23-Dec-22 17:55:57 - ERROR - Error while reading webpage
+23-Dec-22 17:55:58 - ERROR - Error while reading webpage
+23-Dec-22 17:55:59 - ERROR - Error while reading webpage
+23-Dec-22 17:56:00 - ERROR - Error while reading webpage
+23-Dec-22 17:56:01 - ERROR - Error while reading webpage
+23-Dec-22 17:56:03 - ERROR - Error while reading webpage
+23-Dec-22 17:56:03 - ERROR - Error while reading webpage
+23-Dec-22 17:56:04 - ERROR - Error while reading webpage
+23-Dec-22 17:56:05 - ERROR - Error while reading webpage
+23-Dec-22 17:56:07 - ERROR - Error while reading webpage
+23-Dec-22 17:56:08 - ERROR - Error while reading webpage
+23-Dec-22 17:56:10 - ERROR - Error while reading webpage
+23-Dec-22 17:56:10 - ERROR - Error while reading webpage
+23-Dec-22 17:56:10 - ERROR - Error while reading webpage
+23-Dec-22 17:56:12 - ERROR - Error while reading webpage
+23-Dec-22 17:56:13 - ERROR - Error while reading webpage
+23-Dec-22 17:56:14 - ERROR - Error while reading webpage
+23-Dec-22 17:56:16 - ERROR - Error while reading webpage
+23-Dec-22 17:56:16 - ERROR - Error while reading webpage
+23-Dec-22 17:56:20 - ERROR - Error while reading webpage
+23-Dec-22 17:56:21 - ERROR - Error while reading webpage
+23-Dec-22 17:56:23 - ERROR - Error while reading webpage
+23-Dec-22 17:56:23 - ERROR - Error while reading webpage
+23-Dec-22 17:56:24 - ERROR - Error while reading webpage
+23-Dec-22 17:56:25 - ERROR - Error while reading webpage
+23-Dec-22 17:56:25 - ERROR - Error while reading webpage
+23-Dec-22 17:56:25 - ERROR - Error while reading webpage
+23-Dec-22 17:56:27 - ERROR - Error while reading webpage
+23-Dec-22 17:56:28 - ERROR - Error while reading webpage
+23-Dec-22 17:56:28 - ERROR - Error while reading webpage
+23-Dec-22 17:56:31 - ERROR - Error while reading webpage
+23-Dec-22 17:56:33 - ERROR - Error while reading webpage
+23-Dec-22 17:56:33 - ERROR - Error while reading webpage
+23-Dec-22 17:56:35 - ERROR - Error while reading webpage
+23-Dec-22 17:56:35 - ERROR - Error while reading webpage
+23-Dec-22 17:56:36 - ERROR - Error while reading webpage
+23-Dec-22 17:56:36 - ERROR - Error while reading webpage
+23-Dec-22 17:56:36 - ERROR - Error while reading webpage
+23-Dec-22 17:56:36 - ERROR - Error while reading webpage
+23-Dec-22 17:56:37 - ERROR - Error while reading webpage
+23-Dec-22 17:56:38 - ERROR - Error while reading webpage
+23-Dec-22 17:56:39 - ERROR - Error while reading webpage
+23-Dec-22 17:56:41 - ERROR - Error while reading webpage
+23-Dec-22 17:56:41 - ERROR - Error while reading webpage
+23-Dec-22 17:56:41 - ERROR - Error while reading webpage
+23-Dec-22 17:56:41 - ERROR - Error while reading webpage
+23-Dec-22 17:56:42 - ERROR - Error while reading webpage
+23-Dec-22 17:56:48 - ERROR - Error while reading webpage
+23-Dec-22 17:56:55 - ERROR - Error while reading webpage
+23-Dec-22 17:56:55 - ERROR - Error while reading webpage
+23-Dec-22 17:56:55 - ERROR - Error while reading webpage
+23-Dec-22 17:56:57 - ERROR - Error while reading webpage
+23-Dec-22 17:57:01 - ERROR - Error while reading webpage
+23-Dec-22 17:57:01 - INFO - Number of pages read - 495
+23-Dec-22 17:57:01 - INFO - Time taken to read all the pages - 101.66703915596008 secs
+23-Dec-22 17:57:02 - INFO - Data written to the JSON file
+23-Dec-22 17:57:02 - INFO - Data read from file.
+23-Dec-22 17:57:35 - INFO - Weights assigned.
+23-Dec-22 17:57:37 - INFO - Text from links processed.
+23-Dec-22 17:57:37 - INFO - >> https://www.bobatkins.com/photography/digital/image_stabilization.html - 939
+23-Dec-22 17:57:37 - INFO - >> https://www.imdb.com/list/ls058011111/ - 149
+23-Dec-22 17:57:37 - INFO - >> https://kids.kiddle.co/Will_Smith - 128
+23-Dec-22 17:57:37 - INFO - >> https://www.canon-europe.com/pro/infobank/image-stabilisation-lenses/ - 117
+23-Dec-22 17:57:37 - INFO - >> https://www.bhphotovideo.com/explora/photography/tips-and-solutions/image-stabilization-when-use-it-and-when-turn-it - 99
+23-Dec-22 17:57:37 - INFO - >> https://lesdeuxpiedsdehors.com/en/sony-fe-lenses-list/ - 95
+23-Dec-22 17:57:37 - INFO - >> https://www.rvinyl.com/vehicle-wraps - 92
+23-Dec-22 17:57:37 - INFO - >> https://photographylife.com/nikon-full-frame-cameras - 87
+23-Dec-22 17:57:37 - INFO - >> https://www.pointsinfocus.com/learning/cameras-lenses/guide-to-auto-exposure-bracketing-on-canon-dslrs/ - 83
+23-Dec-22 17:57:37 - INFO - >> https://pitchfork.com/features/article/how-auto-tune-revolutionized-the-sound-of-popular-music/ - 82
+23-Dec-22 17:57:37 - INFO - Seed URL match:['Email', 'Time', 'Camera', 'Sony', 'Film', 'Marketing', 'Image', 'Adoption']
+23-Dec-22 17:57:37 - INFO - Log - END

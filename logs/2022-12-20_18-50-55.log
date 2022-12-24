@@ -1,0 +1,39 @@
+20-Dec-22 18:50:55 - INFO - Log - START
+20-Dec-22 18:50:55 - INFO - People grouped.
+20-Dec-22 18:50:55 - INFO - CameraLens.json > JSON read
+20-Dec-22 18:50:55 - INFO - CameraLens.json > Keys made
+20-Dec-22 18:50:55 - INFO - CameraLens.json > JSON written
+20-Dec-22 18:50:55 - INFO - Laptop.json > JSON read
+20-Dec-22 18:50:55 - INFO - Laptop.json > Keys made
+20-Dec-22 18:50:55 - INFO - Laptop.json > JSON written
+20-Dec-22 18:50:55 - INFO - LaptopPeriferals.json > JSON read
+20-Dec-22 18:50:55 - INFO - LaptopPeriferals.json > Keys made
+20-Dec-22 18:50:55 - INFO - LaptopPeriferals.json > JSON written
+20-Dec-22 18:50:56 - INFO - Mobile.json > JSON read
+20-Dec-22 18:50:56 - INFO - Mobile.json > Keys made
+20-Dec-22 18:50:56 - INFO - Mobile.json > JSON written
+20-Dec-22 18:50:56 - INFO - Person.json > JSON read
+20-Dec-22 18:50:56 - INFO - Person.json > Keys made
+20-Dec-22 18:50:57 - INFO - Person.json > JSON written
+20-Dec-22 18:50:57 - INFO - Refrigerator.json > JSON read
+20-Dec-22 18:50:57 - INFO - Refrigerator.json > Keys made
+20-Dec-22 18:50:57 - INFO - Refrigerator.json > JSON written
+20-Dec-22 18:50:57 - INFO - Tablet.json > JSON read
+20-Dec-22 18:50:57 - INFO - Tablet.json > Keys made
+20-Dec-22 18:50:57 - INFO - Tablet.json > JSON written
+20-Dec-22 18:50:57 - INFO - TV.json > JSON read
+20-Dec-22 18:50:57 - INFO - TV.json > Keys made
+20-Dec-22 18:50:58 - INFO - TV.json > JSON written
+20-Dec-22 18:50:58 - INFO - WashingMachine.json > JSON read
+20-Dec-22 18:50:58 - INFO - WashingMachine.json > Keys made
+20-Dec-22 18:50:58 - INFO - WashingMachine.json > JSON written
+20-Dec-22 18:50:58 - INFO - WearableSmartDevice.json > JSON read
+20-Dec-22 18:50:58 - INFO - WearableSmartDevice.json > Keys made
+20-Dec-22 18:50:58 - INFO - WearableSmartDevice.json > JSON written
+20-Dec-22 18:50:58 - INFO - Creating files completed!
+20-Dec-22 18:50:58 - INFO - ID(s): ['3193', '1000']
+20-Dec-22 18:50:58 - INFO - Items read successfully
+20-Dec-22 18:50:58 - INFO - Items written to file successfully
+20-Dec-22 18:52:05 - INFO - Links fetched
+20-Dec-22 18:52:05 - INFO - Links dumped to file
+20-Dec-22 18:52:05 - INFO - Log - END

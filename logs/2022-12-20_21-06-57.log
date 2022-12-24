@@ -1,0 +1,41 @@
+20-Dec-22 21:06:57 - INFO - Log - START
+20-Dec-22 21:06:57 - INFO - People grouped.
+20-Dec-22 21:06:57 - INFO - CameraLens.json > JSON read
+20-Dec-22 21:06:57 - INFO - CameraLens.json > Keys made
+20-Dec-22 21:06:57 - INFO - CameraLens.json > JSON written
+20-Dec-22 21:06:57 - INFO - Laptop.json > JSON read
+20-Dec-22 21:06:57 - INFO - Laptop.json > Keys made
+20-Dec-22 21:06:57 - INFO - Laptop.json > JSON written
+20-Dec-22 21:06:57 - INFO - LaptopPeriferals.json > JSON read
+20-Dec-22 21:06:57 - INFO - LaptopPeriferals.json > Keys made
+20-Dec-22 21:06:57 - INFO - LaptopPeriferals.json > JSON written
+20-Dec-22 21:06:57 - INFO - Mobile.json > JSON read
+20-Dec-22 21:06:57 - INFO - Mobile.json > Keys made
+20-Dec-22 21:06:57 - INFO - Mobile.json > JSON written
+20-Dec-22 21:06:57 - INFO - Person.json > JSON read
+20-Dec-22 21:06:57 - INFO - Person.json > Keys made
+20-Dec-22 21:06:58 - INFO - Person.json > JSON written
+20-Dec-22 21:06:58 - INFO - Refrigerator.json > JSON read
+20-Dec-22 21:06:58 - INFO - Refrigerator.json > Keys made
+20-Dec-22 21:06:58 - INFO - Refrigerator.json > JSON written
+20-Dec-22 21:06:58 - INFO - Tablet.json > JSON read
+20-Dec-22 21:06:58 - INFO - Tablet.json > Keys made
+20-Dec-22 21:06:58 - INFO - Tablet.json > JSON written
+20-Dec-22 21:06:58 - INFO - TV.json > JSON read
+20-Dec-22 21:06:58 - INFO - TV.json > Keys made
+20-Dec-22 21:06:58 - INFO - TV.json > JSON written
+20-Dec-22 21:06:58 - INFO - WashingMachine.json > JSON read
+20-Dec-22 21:06:58 - INFO - WashingMachine.json > Keys made
+20-Dec-22 21:06:58 - INFO - WashingMachine.json > JSON written
+20-Dec-22 21:06:58 - INFO - WearableSmartDevice.json > JSON read
+20-Dec-22 21:06:58 - INFO - WearableSmartDevice.json > Keys made
+20-Dec-22 21:06:58 - INFO - WearableSmartDevice.json > JSON written
+20-Dec-22 21:06:58 - INFO - Creating files completed!
+20-Dec-22 21:06:58 - INFO - ID(s): ['3194', '1002']
+20-Dec-22 21:06:59 - INFO - Items read successfully
+20-Dec-22 21:06:59 - INFO - Items written to file successfully
+20-Dec-22 21:06:59 - WARNING - For: 39.3 mm AND abraham_lincoln - HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000236616CE5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+20-Dec-22 21:06:59 - CRITICAL - Too many requests! need to cool down
+20-Dec-22 21:08:07 - INFO - Links fetched
+20-Dec-22 21:08:07 - INFO - Links dumped to file
+20-Dec-22 21:08:07 - INFO - Log - END

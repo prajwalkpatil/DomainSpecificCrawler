@@ -3,6 +3,7 @@ import re
 import json
 import sys
 import itertools
+import operator
 from tqdm.auto import tqdm
 from bs4 import BeautifulSoup
 import string
@@ -13,14 +14,17 @@ from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from logger import Logger
+
 stopWords = set(stopwords.words('english'))
 
 
 fetched_content = {}
 fetched_items = {}
 processed_items = {}
-weights = {}
+item_weights = {}
 matched_words = {}
+trie_dict = {}
+common_elements = []
 data_file = 'intermediates/data.json'
 items_file = 'intermediates/items.json'
 processed_file = 'intermediates/items_processed.json'
@@ -92,50 +96,53 @@ def get_occurrence_count(t1, to_match):
 
 
 def assign_weights():
-    global weights
+    global item_weights
     global fetched_content
     global matched_words
-    item_ids = fetched_items.keys()
-    item_weights = {}
+    global common_elements
+
     pbar = tqdm(desc="Comparing data: ", total=len(fetched_content))
     for idx, url in enumerate(fetched_content):
-        item_weights[url] = {}
-        for i in item_ids:
-            item_weights[url][i] = 0
-        matched_words[url] = {}
-        for i in item_ids:
-            matched_words[url][i] = []
-        for i in item_ids:
-            for search_term in processed_items[i]:
-                if len(search_term) > 2:
-                    count = get_occurrence_count(
-                        search_term, fetched_content[url][0])
-                    item_weights[url][i] += count
-                    if count > 0:
-                        matched_words[url][i].append(search_term)
+        item_weights[url] = 0
+        matched_words[url] = []
+        for search_term in common_elements:
+            if len(search_term) > 2:
+                count = get_occurrence_count(
+                    search_term, fetched_content[url][0])
+                item_weights[url] += count
+                if count > 0:
+                    matched_words[url].append(search_term)
         pbar.update(1)
     pbar.close()
     print("Comparison done.")
-    for url in item_weights:
-        w = []
-        for i in item_weights[url]:
-            w.append(item_weights[url][i])
-        w.sort()
-        weights[url] = w[0]
-    weights = sorted(weights.items(), key=lambda item: item[1], reverse=True)
+    item_weights = dict(sorted(item_weights.items(),
+                        key=operator.itemgetter(1), reverse=True))
     Logger.write_info("Weights assigned.")
+
+
+def common_member():
+    global common_elements
+    item_ids = list(fetched_items.keys())
+    set_array = [set(processed_items[item]) for item in item_ids]
+    # print("Set >>", set_array)
+    common_elements = list(set.intersection(*set_array))
+    # print("Common Elements > ", common_elements)
 
 
 def print_seed_urls():
     global weights
     Logger.write_debug("URLs with weights:")
+    top_links = list(item_weights.keys())
     for i in range(0, 10):
-        Logger.write_info(f">> {weights[i][0]} - {weights[i][1]}")
-    Logger.write_info("Seed URL match:" + str(matched_words[weights[0][0]]))
+        # Logger.write_info(">> " + str(top_links[i]))
+        Logger.write_info(
+            ">> " + str(top_links[i]) + " - " + str(item_weights[top_links[i]]))
+    Logger.write_info("Seed URL match:" + str(matched_words[top_links[0]]))
 
 
 def read_data():
     fetch_data()
+    common_member()
     assign_weights()
     process_link_content()
     print_seed_urls()
