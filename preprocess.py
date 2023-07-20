@@ -32,10 +32,10 @@ def get_items(items):
                         input_ids.remove(id)
                         # adding (id, list) to item_values
                         item_values[id] = data[id]
-        Logger.write_info("Items read successfully")
+        Logger.write_info("Items read successfully.")
         with open(output_intermediate, "w") as output_file:
             json.dump(item_values, output_file)
-        Logger.write_info("Items written to file successfully")
+        Logger.write_info("Items written to file successfully.")
     except Exception as e:
         Logger.write_error(e)
         sys.exit(-1)
